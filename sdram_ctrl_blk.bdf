@@ -277,22 +277,6 @@ applicable agreement for further details.
 	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
 )
 (pin
-	(input)
-	(rect 80 1024 264 1040)
-	(text "INPUT" (rect 149 0 177 10)(font "Arial" (font_size 6)))
-	(text "cut_fifo_num[31..0]" (rect 5 0 102 12)(font "Arial" ))
-	(pt 184 8)
-	(drawing
-		(line (pt 108 12)(pt 133 12)(line_width 1))
-		(line (pt 108 4)(pt 133 4)(line_width 1))
-		(line (pt 137 8)(pt 184 8)(line_width 1))
-		(line (pt 108 12)(pt 108 4)(line_width 1))
-		(line (pt 133 4)(pt 137 8)(line_width 1))
-		(line (pt 133 12)(pt 137 8)(line_width 1))
-	)
-	(text "VCC" (rect 152 7 172 17)(font "Arial" (font_size 6)))
-)
-(pin
 	(output)
 	(rect 192 840 368 856)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))

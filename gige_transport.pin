@@ -79,19 +79,19 @@ Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage 
 GND                          : A2        : gnd    :                   :         :           :                
 MSEL3                        : A3        :        :                   :         : 4         :                
 VCCIO4                       : A4        : power  :                   : 3.3V    : 4         :                
-SDRAM_C_D[30]                : A5        : bidir  : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_C_D[28]                : A6        : bidir  : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_C_D[26]                : A7        : bidir  : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_C_D[24]                : A8        : bidir  : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_C_D[23]                : A9        : bidir  : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_C_D[21]                : A10       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_C_D[19]                : A11       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_C_D[17]                : A12       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_D_D[31]                : A13       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_D_D[29]                : A14       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_D_D[27]                : A15       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+RESERVED_INPUT               : A5        :        :                   :         : 4         :                
+RESERVED_INPUT               : A6        :        :                   :         : 4         :                
+RESERVED_INPUT               : A7        :        :                   :         : 4         :                
+RESERVED_INPUT               : A8        :        :                   :         : 4         :                
+RESERVED_INPUT               : A9        :        :                   :         : 4         :                
+RESERVED_INPUT               : A10       :        :                   :         : 4         :                
+RESERVED_INPUT               : A11       :        :                   :         : 4         :                
+RESERVED_INPUT               : A12       :        :                   :         : 4         :                
+RESERVED_INPUT               : A13       :        :                   :         : 4         :                
+RESERVED_INPUT               : A14       :        :                   :         : 4         :                
+RESERVED_INPUT               : A15       :        :                   :         : 4         :                
 GND                          : A16       : gnd    :                   :         :           :                
-SDRAM_D_D[24]                : A17       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+RESERVED_INPUT               : A17       :        :                   :         : 4         :                
 VCCIO4                       : A18       : power  :                   : 3.3V    : 4         :                
 RESERVED_INPUT               : A19       :        :                   :         : 9         :                
 CLK_2                        : A20       : input  : 3.3-V LVTTL       :         : 4         : Y              
@@ -114,19 +114,19 @@ VCCIO3                       : A36       : power  :                   : 2.5V    
 nSTATUS                      : A37       :        :                   :         : 3         :                
 GND                          : A38       : gnd    :                   :         :           :                
 SCL_5338B                    : AA1       : output : 3.3-V LVTTL       :         : 6         : Y              
-dat_out59[3]                 : AA2       : output : 3.3-V LVTTL       :         : 6         : N              
-SDRAM_C_CS_N                 : AA3       : output : 3.3-V LVTTL       :         : 6         : Y              
-SDRAM_C_A[14]                : AA4       : output : 3.3-V LVTTL       :         : 6         : Y              
+RESERVED_INPUT               : AA2       :        :                   :         : 6         :                
+RESERVED_INPUT               : AA3       :        :                   :         : 6         :                
+RESERVED_INPUT               : AA4       :        :                   :         : 6         :                
 VCCIO6                       : AA5       : power  :                   : 3.3V    : 6         :                
 VREFB6                       : AA6       : power  :                   :         : 6         :                
-SDRAM_C_A[7]                 : AA7       : output : 3.3-V LVTTL       :         : 6         : Y              
+RESERVED_INPUT               : AA7       :        :                   :         : 6         :                
 RESERVED_INPUT               : AA8       :        :                   :         : 6         :                
-dat_out59[8]                 : AA9       : output : 3.3-V LVTTL       :         : 6         : N              
-dat_out59[11]                : AA10      : output : 3.3-V LVTTL       :         : 6         : N              
-dat_out59[4]                 : AA11      : output : 3.3-V LVTTL       :         : 6         : N              
-dat_out59[13]                : AA12      : output : 3.3-V LVTTL       :         : 6         : N              
-dat_out[4]                   : AA13      : output : 3.3-V LVTTL       :         : 6         : N              
-dat_out[7]                   : AA14      : output : 3.3-V LVTTL       :         : 6         : N              
+RESERVED_INPUT               : AA9       :        :                   :         : 6         :                
+RESERVED_INPUT               : AA10      :        :                   :         : 6         :                
+RESERVED_INPUT               : AA11      :        :                   :         : 6         :                
+RESERVED_INPUT               : AA12      :        :                   :         : 6         :                
+RESERVED_INPUT               : AA13      :        :                   :         : 6         :                
+RESERVED_INPUT               : AA14      :        :                   :         : 6         :                
 GND                          : AA15      : gnd    :                   :         :           :                
 VCCINT                       : AA16      : power  :                   : 1.2V    :           :                
 GND                          : AA17      : gnd    :                   :         :           :                
@@ -135,31 +135,31 @@ VCCINT                       : AA22      : power  :                   : 1.2V    
 GND                          : AA23      : gnd    :                   :         :           :                
 VCCINT                       : AA24      : power  :                   : 1.2V    :           :                
 GND                          : AA25      : gnd    :                   :         :           :                
-dat_out45[3]                 : AA26      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out45[7]                 : AA27      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out56[3]                 : AA28      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out56[1]                 : AA29      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out56[5]                 : AA30      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out56[11]                : AA31      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out56[10]                : AA32      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out[8]                   : AA33      : output : 3.3-V LVTTL       :         : 1         : N              
+RESERVED_INPUT               : AA26      :        :                   :         : 1         :                
+RESERVED_INPUT               : AA27      :        :                   :         : 1         :                
+RESERVED_INPUT               : AA28      :        :                   :         : 1         :                
+RESERVED_INPUT               : AA29      :        :                   :         : 1         :                
+RESERVED_INPUT               : AA30      :        :                   :         : 1         :                
+RESERVED_INPUT               : AA31      :        :                   :         : 1         :                
+RESERVED_INPUT               : AA32      :        :                   :         : 1         :                
+RESERVED_INPUT               : AA33      :        :                   :         : 1         :                
 VREFB1                       : AA34      : power  :                   :         : 1         :                
 VCCIO1                       : AA35      : power  :                   : 3.3V    : 1         :                
-dat_out56[15]                : AA36      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out56[12]                : AA37      : output : 3.3-V LVTTL       :         : 1         : N              
+RESERVED_INPUT               : AA36      :        :                   :         : 1         :                
+RESERVED_INPUT               : AA37      :        :                   :         : 1         :                
 LVDS2_DATA[3]                : AA38      : output : 3.3-V LVTTL       :         : 1         : Y              
 LVDS2_DATA[14]               : AA39      : output : 3.3-V LVTTL       :         : 1         : Y              
 VCCIO6                       : AB1       : power  :                   : 3.3V    : 6         :                
 INTR_5338B                   : AB2       : output : 3.3-V LVTTL       :         : 6         : Y              
-SDRAM_C_CAS_N                : AB3       : output : 3.3-V LVTTL       :         : 6         : Y              
-SDRAM_C_A[12]                : AB4       : output : 3.3-V LVTTL       :         : 6         : Y              
+RESERVED_INPUT               : AB3       :        :                   :         : 6         :                
+RESERVED_INPUT               : AB4       :        :                   :         : 6         :                
 ATA1_IDE_CS[1]               : AB5       : output : 3.3-V LVTTL       :         : 6         : Y              
-SDRAM_C_A[9]                 : AB6       : output : 3.3-V LVTTL       :         : 6         : Y              
-dat_out[10]                  : AB7       : output : 3.3-V LVTTL       :         : 6         : N              
+RESERVED_INPUT               : AB6       :        :                   :         : 6         :                
+RESERVED_INPUT               : AB7       :        :                   :         : 6         :                
 RESERVED_INPUT               : AB8       :        :                   :         : 6         :                
-dat_out[5]                   : AB9       : output : 3.3-V LVTTL       :         : 6         : N              
-dat_out[9]                   : AB10      : output : 3.3-V LVTTL       :         : 6         : N              
-dat_out[6]                   : AB11      : output : 3.3-V LVTTL       :         : 6         : N              
+RESERVED_INPUT               : AB9       :        :                   :         : 6         :                
+RESERVED_INPUT               : AB10      :        :                   :         : 6         :                
+RESERVED_INPUT               : AB11      :        :                   :         : 6         :                
 RESERVED_INPUT               : AB12      :        :                   :         : 6         :                
 RESERVED_INPUT               : AB13      :        :                   :         : 6         :                
 VCCPD6                       : AB14      : power  :                   : 3.3V    : 6         :                
@@ -175,21 +175,21 @@ VCCINT                       : AB23      : power  :                   : 1.2V    
 GND                          : AB24      : gnd    :                   :         :           :                
 VCCINT                       : AB25      : power  :                   : 1.2V    :           :                
 VCCPD1                       : AB26      : power  :                   : 3.3V    : 1         :                
-dat_out45[9]                 : AB27      : output : 3.3-V LVTTL       :         : 1         : N              
+RESERVED_INPUT               : AB27      :        :                   :         : 1         :                
 RESERVED_INPUT               : AB28      :        :                   :         : 1         :                
-SW[7]                        : AB29      : input  : 3.3-V LVTTL       :         : 1         : N              
-dat_out[13]                  : AB30      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out45[6]                 : AB31      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out45[15]                : AB32      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out45[11]                : AB33      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out45[4]                 : AB34      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out[2]                   : AB35      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out45[1]                 : AB36      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out56[2]                 : AB37      : output : 3.3-V LVTTL       :         : 1         : N              
+RESERVED_INPUT               : AB29      :        :                   :         : 1         :                
+RESERVED_INPUT               : AB30      :        :                   :         : 1         :                
+RESERVED_INPUT               : AB31      :        :                   :         : 1         :                
+RESERVED_INPUT               : AB32      :        :                   :         : 1         :                
+RESERVED_INPUT               : AB33      :        :                   :         : 1         :                
+RESERVED_INPUT               : AB34      :        :                   :         : 1         :                
+RESERVED_INPUT               : AB35      :        :                   :         : 1         :                
+RESERVED_INPUT               : AB36      :        :                   :         : 1         :                
+RESERVED_INPUT               : AB37      :        :                   :         : 1         :                
 LVDS2_DATA[13]               : AB38      : output : 3.3-V LVTTL       :         : 1         : Y              
 VCCIO1                       : AB39      : power  :                   : 3.3V    : 1         :                
-ATA4_RESETN                  : AC1       : output : 3.3-V LVTTL       :         : 6         : Y              
-ATA4_DD[7]                   : AC2       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
+RESERVED_INPUT               : AC1       :        :                   :         : 6         :                
+RESERVED_INPUT               : AC2       :        :                   :         : 6         :                
 RESERVED_INPUT               : AC3       :        :                   :         : 6         :                
 RESERVED_INPUT               : AC4       :        :                   :         : 6         :                
 GND                          : AC5       : gnd    :                   :         :           :                
@@ -197,7 +197,7 @@ ATA1_RESETN                  : AC6       : output : 3.3-V LVTTL       :         
 RESERVED_INPUT               : AC7       :        :                   :         : 6         :                
 RESERVED_INPUT               : AC8       :        :                   :         : 6         :                
 RESERVED_INPUT               : AC9       :        :                   :         : 6         :                
-dat_out[1]                   : AC10      : output : 3.3-V LVTTL       :         : 6         : N              
+RESERVED_INPUT               : AC10      :        :                   :         : 6         :                
 RESERVED_INPUT               : AC11      :        :                   :         : 6         :                
 RESERVED_INPUT               : AC12      :        :                   :         : 6         :                
 RESERVED_INPUT               : AC13      :        :                   :         : 6         :                
@@ -214,31 +214,31 @@ GND                          : AC23      : gnd    :                   :         
 VCCINT                       : AC24      : power  :                   : 1.2V    :           :                
 GND                          : AC25      : gnd    :                   :         :           :                
 VCCIO1                       : AC26      : power  :                   : 3.3V    : 1         :                
-dat_out45[0]                 : AC27      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out45[10]                : AC28      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out45[14]                : AC29      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out45[13]                : AC30      : output : 3.3-V LVTTL       :         : 1         : N              
+RESERVED_INPUT               : AC27      :        :                   :         : 1         :                
+RESERVED_INPUT               : AC28      :        :                   :         : 1         :                
+RESERVED_INPUT               : AC29      :        :                   :         : 1         :                
+RESERVED_INPUT               : AC30      :        :                   :         : 1         :                
 RESERVED_INPUT               : AC31      :        :                   :         : 1         :                
-dat_out45[2]                 : AC32      : output : 3.3-V LVTTL       :         : 1         : N              
-en_out57                     : AC33      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out58[6]                 : AC34      : output : 3.3-V LVTTL       :         : 1         : N              
+RESERVED_INPUT               : AC32      :        :                   :         : 1         :                
+RESERVED_INPUT               : AC33      :        :                   :         : 1         :                
+RESERVED_INPUT               : AC34      :        :                   :         : 1         :                
 GND                          : AC35      : gnd    :                   :         :           :                
-dat_out[11]                  : AC36      : output : 3.3-V LVTTL       :         : 1         : N              
+RESERVED_INPUT               : AC36      :        :                   :         : 1         :                
 RESERVED_INPUT               : AC37      :        :                   :         : 1         :                
 LVDS2_CLK                    : AC38      : output : 3.3-V LVTTL       :         : 1         : Y              
 LVDS2_DATA[4]                : AC39      : output : 3.3-V LVTTL       :         : 1         : Y              
 GND                          : AD1       : gnd    :                   :         :           :                
 RESERVED_INPUT               : AD2       :        :                   :         : 6         :                
-dat_out[12]                  : AD3       : output : 3.3-V LVTTL       :         : 6         : N              
-dat_out[14]                  : AD4       : output : 3.3-V LVTTL       :         : 6         : N              
+RESERVED_INPUT               : AD3       :        :                   :         : 6         :                
+RESERVED_INPUT               : AD4       :        :                   :         : 6         :                
 ATA1_DD[3]                   : AD5       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
 ATA1_DD[7]                   : AD6       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
-dat_out58[2]                 : AD7       : output : 3.3-V LVTTL       :         : 6         : N              
-dat_out58[13]                : AD8       : output : 3.3-V LVTTL       :         : 6         : N              
+RESERVED_INPUT               : AD7       :        :                   :         : 6         :                
+RESERVED_INPUT               : AD8       :        :                   :         : 6         :                
 RESERVED_INPUT               : AD9       :        :                   :         : 6         :                
 GND                          : AD10      : gnd    :                   :         :           :                
-dat_out58[8]                 : AD11      : output : 3.3-V LVTTL       :         : 6         : N              
-dat_out58[14]                : AD12      : output : 3.3-V LVTTL       :         : 6         : N              
+RESERVED_INPUT               : AD11      :        :                   :         : 6         :                
+RESERVED_INPUT               : AD12      :        :                   :         : 6         :                
 RESERVED_INPUT               : AD13      :        :                   :         : 6         :                
 RESERVED_INPUT               : AD14      :        :                   :         : 6         :                
 VCCPD6                       : AD15      : power  :                   : 3.3V    : 6         :                
@@ -252,29 +252,29 @@ GND                          : AD22      : gnd    :                   :         
 VCCINT                       : AD23      : power  :                   : 1.2V    :           :                
 GND                          : AD24      : gnd    :                   :         :           :                
 VCCPD1                       : AD25      : power  :                   : 3.3V    : 1         :                
-dat_out57[11]                : AD26      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out57[9]                 : AD27      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out58[15]                : AD28      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out58[1]                 : AD29      : output : 3.3-V LVTTL       :         : 1         : N              
+RESERVED_INPUT               : AD26      :        :                   :         : 1         :                
+RESERVED_INPUT               : AD27      :        :                   :         : 1         :                
+RESERVED_INPUT               : AD28      :        :                   :         : 1         :                
+RESERVED_INPUT               : AD29      :        :                   :         : 1         :                
 GND                          : AD30      : gnd    :                   :         :           :                
 RESERVED_INPUT               : AD31      :        :                   :         : 1         :                
-en_out                       : AD32      : output : 3.3-V LVTTL       :         : 1         : N              
+RESERVED_INPUT               : AD32      :        :                   :         : 1         :                
 RESERVED_INPUT               : AD33      :        :                   :         : 1         :                
 RESERVED_INPUT               : AD34      :        :                   :         : 1         :                
-dat_out[15]                  : AD35      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out[0]                   : AD36      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out45[8]                 : AD37      : output : 3.3-V LVTTL       :         : 1         : N              
+RESERVED_INPUT               : AD35      :        :                   :         : 1         :                
+RESERVED_INPUT               : AD36      :        :                   :         : 1         :                
+RESERVED_INPUT               : AD37      :        :                   :         : 1         :                
 LVDS2_SYN                    : AD38      : output : 3.3-V LVTTL       :         : 1         : Y              
 GND                          : AD39      : gnd    :                   :         :           :                
-ATA4_DD[8]                   : AE1       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
-ATA4_DD[6]                   : AE2       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
+RESERVED_INPUT               : AE1       :        :                   :         : 6         :                
+RESERVED_INPUT               : AE2       :        :                   :         : 6         :                
 RESERVED_INPUT               : AE3       :        :                   :         : 6         :                
 ATA1_DD[12]                  : AE4       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
-dat_out58[0]                 : AE5       : output : 3.3-V LVTTL       :         : 6         : N              
+RESERVED_INPUT               : AE5       :        :                   :         : 6         :                
 ATA1_DD[8]                   : AE6       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
-en_out45                     : AE7       : output : 3.3-V LVTTL       :         : 6         : N              
-dat_out58[12]                : AE8       : output : 3.3-V LVTTL       :         : 6         : N              
-dat_out58[3]                 : AE9       : output : 3.3-V LVTTL       :         : 6         : N              
+RESERVED_INPUT               : AE7       :        :                   :         : 6         :                
+RESERVED_INPUT               : AE8       :        :                   :         : 6         :                
+RESERVED_INPUT               : AE9       :        :                   :         : 6         :                
 RESERVED_INPUT               : AE10      :        :                   :         : 6         :                
 RESERVED_INPUT               : AE11      :        :                   :         : 6         :                
 RESERVED_INPUT               : AE12      :        :                   :         : 6         :                
@@ -291,22 +291,22 @@ VCCINT                       : AE22      : power  :                   : 1.2V    
 GND                          : AE23      : gnd    :                   :         :           :                
 VCCINT                       : AE24      : power  :                   : 1.2V    :           :                
 GND                          : AE25      : gnd    :                   :         :           :                
-dat_out55[6]                 : AE26      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out55[3]                 : AE27      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out55[0]                 : AE28      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out55[1]                 : AE29      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out57[7]                 : AE30      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out57[3]                 : AE31      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out57[8]                 : AE32      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out57[10]                : AE33      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out57[0]                 : AE34      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out57[5]                 : AE35      : output : 3.3-V LVTTL       :         : 1         : N              
+RESERVED_INPUT               : AE26      :        :                   :         : 1         :                
+RESERVED_INPUT               : AE27      :        :                   :         : 1         :                
+RESERVED_INPUT               : AE28      :        :                   :         : 1         :                
+RESERVED_INPUT               : AE29      :        :                   :         : 1         :                
+RESERVED_INPUT               : AE30      :        :                   :         : 1         :                
+RESERVED_INPUT               : AE31      :        :                   :         : 1         :                
+RESERVED_INPUT               : AE32      :        :                   :         : 1         :                
+RESERVED_INPUT               : AE33      :        :                   :         : 1         :                
+RESERVED_INPUT               : AE34      :        :                   :         : 1         :                
+RESERVED_INPUT               : AE35      :        :                   :         : 1         :                
 RESERVED_INPUT               : AE36      :        :                   :         : 1         :                
 RESERVED_INPUT               : AE37      :        :                   :         : 1         :                
 RESERVED_INPUT               : AE38      :        :                   :         : 1         :                
-en_out54                     : AE39      : output : 3.3-V LVTTL       :         : 1         : N              
-ATA4_DD[9]                   : AF1       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
-ATA4_DD[5]                   : AF2       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
+RESERVED_INPUT               : AE39      :        :                   :         : 1         :                
+RESERVED_INPUT               : AF1       :        :                   :         : 6         :                
+RESERVED_INPUT               : AF2       :        :                   :         : 6         :                
 ATA1_DD[13]                  : AF3       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
 ATA1_DD[2]                   : AF4       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
 RESERVED_INPUT               : AF5       :        :                   :         : 6         :                
@@ -316,8 +316,8 @@ RESERVED_INPUT               : AF8       :        :                   :         
 VCCIO6                       : AF9       : power  :                   : 3.3V    : 6         :                
 RESERVED_INPUT               : AF10      :        :                   :         : 6         :                
 RESERVED_INPUT               : AF11      :        :                   :         : 6         :                
-dat_out46[13]                : AF12      : output : 3.3-V LVTTL       :         : 6         : N              
-dat_out46[7]                 : AF13      : output : 3.3-V LVTTL       :         : 6         : N              
+RESERVED_INPUT               : AF12      :        :                   :         : 6         :                
+RESERVED_INPUT               : AF13      :        :                   :         : 6         :                
 VCCPD6                       : AF14      : power  :                   : 3.3V    : 6         :                
 GND                          : AF15      : gnd    :                   :         :           :                
 VCCPD7                       : AF16      : power  :                   : 3.3V    : 7         :                
@@ -331,21 +331,21 @@ VCCIO8                       : AF23      : power  :                   : 3.3V    
 VCCPD8                       : AF24      : power  :                   : 3.3V    : 8         :                
 GND                          : AF25      : gnd    :                   :         :           :                
 VCCPD1                       : AF26      : power  :                   : 3.3V    : 1         :                
-dat_out55[8]                 : AF27      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out55[12]                : AF28      : output : 3.3-V LVTTL       :         : 1         : N              
-en_out40                     : AF29      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out57[15]                : AF30      : output : 3.3-V LVTTL       :         : 1         : N              
+RESERVED_INPUT               : AF27      :        :                   :         : 1         :                
+RESERVED_INPUT               : AF28      :        :                   :         : 1         :                
+RESERVED_INPUT               : AF29      :        :                   :         : 1         :                
+RESERVED_INPUT               : AF30      :        :                   :         : 1         :                
 VCCIO1                       : AF31      : power  :                   : 3.3V    : 1         :                
-dat_out57[13]                : AF32      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out57[14]                : AF33      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out55[7]                 : AF34      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out55[9]                 : AF35      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out58[9]                 : AF36      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out58[4]                 : AF37      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out45[12]                : AF38      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out45[5]                 : AF39      : output : 3.3-V LVTTL       :         : 1         : N              
-ATA4_DD[10]                  : AG1       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
-ATA4_DD[11]                  : AG2       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
+RESERVED_INPUT               : AF32      :        :                   :         : 1         :                
+RESERVED_INPUT               : AF33      :        :                   :         : 1         :                
+RESERVED_INPUT               : AF34      :        :                   :         : 1         :                
+RESERVED_INPUT               : AF35      :        :                   :         : 1         :                
+RESERVED_INPUT               : AF36      :        :                   :         : 1         :                
+RESERVED_INPUT               : AF37      :        :                   :         : 1         :                
+RESERVED_INPUT               : AF38      :        :                   :         : 1         :                
+RESERVED_INPUT               : AF39      :        :                   :         : 1         :                
+RESERVED_INPUT               : AG1       :        :                   :         : 6         :                
+RESERVED_INPUT               : AG2       :        :                   :         : 6         :                
 ATA3_DD[7]                   : AG3       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
 ATA3_RESETN                  : AG4       : output : 3.3-V LVTTL       :         : 6         : Y              
 VREFB6                       : AG5       : power  :                   :         : 6         :                
@@ -353,50 +353,50 @@ RESERVED_INPUT               : AG6       :        :                   :         
 ATA1_DD[9]                   : AG7       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
 FLASH_A[19]                  : AG8       : output : 3.3-V LVTTL       :         : 6         : Y              
 RESERVED_INPUT               : AG9       :        :                   :         : 6         :                
-dat_out46[3]                 : AG10      : output : 3.3-V LVTTL       :         : 6         : N              
-dat_out46[15]                : AG11      : output : 3.3-V LVTTL       :         : 6         : N              
-dat_out41[10]                : AG12      : output : 3.3-V LVTTL       :         : 6         : N              
-dat_out46[9]                 : AG13      : output : 3.3-V LVTTL       :         : 6         : N              
-dat_out46[14]                : AG14      : output : 3.3-V LVTTL       :         : 7         : N              
-dat_out46[0]                 : AG15      : output : 3.3-V LVTTL       :         : 7         : N              
+dat_out[13]                  : AG10      : output : 3.3-V LVTTL       :         : 6         : N              
+dat_out[1]                   : AG11      : output : 3.3-V LVTTL       :         : 6         : N              
+RESERVED_INPUT               : AG12      :        :                   :         : 6         :                
+RESERVED_INPUT               : AG13      :        :                   :         : 6         :                
+RESERVED_INPUT               : AG14      :        :                   :         : 7         :                
+RESERVED_INPUT               : AG15      :        :                   :         : 7         :                
 RESERVED_INPUT               : AG16      :        :                   :         : 7         :                
 RESERVED_INPUT               : AG17      :        :                   :         : 7         :                
 SDRAM_A_A[0]                 : AG18      : output : 3.3-V LVTTL       :         : 7         : Y              
 SDRAM_A_A[14]                : AG19      : output : 3.3-V LVTTL       :         : 7         : Y              
 SDRAM_A_A[9]                 : AG20      : output : 3.3-V LVTTL       :         : 7         : Y              
-dat_out55[5]                 : AG21      : output : 3.3-V LVTTL       :         : 8         : N              
+dat_out[14]                  : AG21      : output : 3.3-V LVTTL       :         : 8         : N              
 FLASH_A[15]                  : AG22      : output : 3.3-V LVTTL       :         : 8         : Y              
-dat_out41[4]                 : AG23      : output : 3.3-V LVTTL       :         : 8         : N              
+RESERVED_INPUT               : AG23      :        :                   :         : 8         :                
 FLASH_A[1]                   : AG24      : output : 3.3-V LVTTL       :         : 8         : Y              
 FLASH_A[3]                   : AG25      : output : 3.3-V LVTTL       :         : 8         : Y              
 FLASH_A[4]                   : AG26      : output : 3.3-V LVTTL       :         : 8         : Y              
-dat_out41[2]                 : AG27      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out41[3]                 : AG28      : output : 3.3-V LVTTL       :         : 1         : N              
+RESERVED_INPUT               : AG27      :        :                   :         : 1         :                
+RESERVED_INPUT               : AG28      :        :                   :         : 1         :                
 RESERVED_INPUT               : AG29      :        :                   :         : 1         :                
-RESERVED_INPUT               : AG30      :        :                   :         : 1         :                
-dat_out55[15]                : AG31      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out55[11]                : AG32      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out57[6]                 : AG33      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out57[12]                : AG34      : output : 3.3-V LVTTL       :         : 1         : N              
+dat_out[7]                   : AG30      : output : 3.3-V LVTTL       :         : 1         : N              
+RESERVED_INPUT               : AG31      :        :                   :         : 1         :                
+RESERVED_INPUT               : AG32      :        :                   :         : 1         :                
+RESERVED_INPUT               : AG33      :        :                   :         : 1         :                
+RESERVED_INPUT               : AG34      :        :                   :         : 1         :                
 VREFB1                       : AG35      : power  :                   :         : 1         :                
-dat_out58[11]                : AG36      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out57[4]                 : AG37      : output : 3.3-V LVTTL       :         : 1         : N              
+RESERVED_INPUT               : AG36      :        :                   :         : 1         :                
+RESERVED_INPUT               : AG37      :        :                   :         : 1         :                
 422_2_DATA[0]                : AG38      : output : 3.3-V LVTTL       :         : 1         : Y              
 422_2_DATA[14]               : AG39      : output : 3.3-V LVTTL       :         : 1         : Y              
-ATA4_DD[3]                   : AH1       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
-ATA4_DD[12]                  : AH2       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
+RESERVED_INPUT               : AH1       :        :                   :         : 6         :                
+RESERVED_INPUT               : AH2       :        :                   :         : 6         :                
 ATA3_DD[6]                   : AH3       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
 ATA3_DD[8]                   : AH4       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
 RESERVED_INPUT               : AH5       :        :                   :         : 6         :                
 ATA1_DD[5]                   : AH6       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
 FLASH_A[21]                  : AH7       : output : 3.3-V LVTTL       :         : 6         : Y              
-dat_out46[4]                 : AH8       : output : 3.3-V LVTTL       :         : 6         : N              
-dat_out46[2]                 : AH9       : output : 3.3-V LVTTL       :         : 6         : N              
-dat_out46[5]                 : AH10      : output : 3.3-V LVTTL       :         : 6         : N              
+RESERVED_INPUT               : AH8       :        :                   :         : 6         :                
+RESERVED_INPUT               : AH9       :        :                   :         : 6         :                
+RESERVED_INPUT               : AH10      :        :                   :         : 6         :                
 FLASH_D[6]                   : AH11      : bidir  : 3.3-V LVTTL       :         : 6         : Y              
-dat_out46[12]                : AH12      : output : 3.3-V LVTTL       :         : 6         : N              
+RESERVED_INPUT               : AH12      :        :                   :         : 6         :                
 RESERVED_INPUT               : AH13      :        :                   :         : 7         :                
-dat_out46[10]                : AH14      : output : 3.3-V LVTTL       :         : 7         : N              
+RESERVED_INPUT               : AH14      :        :                   :         : 7         :                
 RESERVED_INPUT               : AH15      :        :                   :         : 7         :                
 RESERVED_INPUT               : AH16      :        :                   :         : 7         :                
 FLASH_D[1]                   : AH17      : bidir  : 3.3-V LVTTL       :         : 7         : Y              
@@ -412,21 +412,21 @@ FLASH_A[6]                   : AH26      : output : 3.3-V LVTTL       :         
 FLASH_A[7]                   : AH27      : output : 3.3-V LVTTL       :         : 8         : Y              
 RESERVED_INPUT               : AH28      :        :                   :         : 1         :                
 RESERVED_INPUT               : AH29      :        :                   :         : 1         :                
-dat_out41[1]                 : AH30      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out41[8]                 : AH31      : output : 3.3-V LVTTL       :         : 1         : N              
+RESERVED_INPUT               : AH30      :        :                   :         : 1         :                
+RESERVED_INPUT               : AH31      :        :                   :         : 1         :                
 RESERVED_INPUT               : AH32      :        :                   :         : 1         :                
 RESERVED_INPUT               : AH33      :        :                   :         : 1         :                
-dat_out55[14]                : AH34      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out55[4]                 : AH35      : output : 3.3-V LVTTL       :         : 1         : N              
+RESERVED_INPUT               : AH34      :        :                   :         : 1         :                
+RESERVED_INPUT               : AH35      :        :                   :         : 1         :                
 422_2_DATA[1]                : AH36      : output : 3.3-V LVTTL       :         : 1         : Y              
 422_2_DATA[13]               : AH37      : output : 3.3-V LVTTL       :         : 1         : Y              
-en_out44                     : AH38      : output : 3.3-V LVTTL       :         : 1         : N              
-en_out56                     : AH39      : output : 3.3-V LVTTL       :         : 1         : N              
-ATA4_DD[2]                   : AJ1       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
-ATA4_DD[13]                  : AJ2       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
+RESERVED_INPUT               : AH38      :        :                   :         : 1         :                
+RESERVED_INPUT               : AH39      :        :                   :         : 1         :                
+RESERVED_INPUT               : AJ1       :        :                   :         : 6         :                
+RESERVED_INPUT               : AJ2       :        :                   :         : 6         :                
 ATA3_DD[5]                   : AJ3       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
 ATA3_DD[9]                   : AJ4       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
-dat_out46[8]                 : AJ5       : output : 3.3-V LVTTL       :         : 6         : N              
+RESERVED_INPUT               : AJ5       :        :                   :         : 6         :                
 ATA1_DD[10]                  : AJ6       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
 FLASH_CE                     : AJ7       : output : 3.3-V LVTTL       :         : 6         : Y              
 SDRAM_A_A[4]                 : AJ8       : output : 3.3-V LVTTL       :         : 6         : Y              
@@ -452,20 +452,20 @@ FLASH_RESET                  : AJ27      : output : 3.3-V LVTTL       :         
 RESERVED_INPUT               : AJ28      :        :                   :         : 8         :                
 VCCA_PLL8                    : AJ29      : power  :                   : 1.2V    :           :                
 422_1_DATA[7]                : AJ30      : output : 3.3-V LVTTL       :         : 1         : Y              
-dat_out41[0]                 : AJ31      : output : 3.3-V LVTTL       :         : 1         : N              
+RESERVED_INPUT               : AJ31      :        :                   :         : 1         :                
 RESERVED_INPUT               : AJ32      :        :                   :         : 1         :                
 RESERVED_INPUT               : AJ33      :        :                   :         : 1         :                
-dat_out41[7]                 : AJ34      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out55[13]                : AJ35      : output : 3.3-V LVTTL       :         : 1         : N              
+RESERVED_INPUT               : AJ34      :        :                   :         : 1         :                
+RESERVED_INPUT               : AJ35      :        :                   :         : 1         :                
 422_2_SYN                    : AJ36      : output : 3.3-V LVTTL       :         : 1         : Y              
 422_2_DATA[2]                : AJ37      : output : 3.3-V LVTTL       :         : 1         : Y              
 RESERVED_INPUT               : AJ38      :        :                   :         : 1         :                
-dat_out58[5]                 : AJ39      : output : 3.3-V LVTTL       :         : 1         : N              
-ATA4_DD[15]                  : AK1       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
-ATA4_DIOWN                   : AK2       : output : 3.3-V LVTTL       :         : 6         : Y              
+RESERVED_INPUT               : AJ39      :        :                   :         : 1         :                
+RESERVED_INPUT               : AK1       :        :                   :         : 6         :                
+RESERVED_INPUT               : AK2       :        :                   :         : 6         :                
 ATA3_DD[4]                   : AK3       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
 ATA3_DD[10]                  : AK4       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
-dat_out46[1]                 : AK5       : output : 3.3-V LVTTL       :         : 6         : N              
+RESERVED_INPUT               : AK5       :        :                   :         : 6         :                
 ATA1_DD[4]                   : AK6       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
 GND                          : AK7       : gnd    :                   :         :           :                
 SDRAM_A_A[3]                 : AK8       : output : 3.3-V LVTTL       :         : 6         : Y              
@@ -475,33 +475,33 @@ VCCD_PLL9                    : AK11      : power  :                   : 1.2V    
 RESERVED_INPUT               : AK12      :        :                   :         : 7         :                
 RESERVED_INPUT               : AK13      :        :                   :         : 7         :                
 RESERVED_INPUT               : AK14      :        :                   :         : 7         :                
-dat_out42[1]                 : AK15      : output : 3.3-V LVTTL       :         : 7         : N              
-dat_out46[11]                : AK16      : output : 3.3-V LVTTL       :         : 7         : N              
+RESERVED_INPUT               : AK15      :        :                   :         : 7         :                
+RESERVED_INPUT               : AK16      :        :                   :         : 7         :                
 RESERVED_INPUT               : AK17      :        :                   :         : 7         :                
 VCC_PLL6_OUT                 : AK18      : power  :                   : 3.3V    : 10        :                
 GNDA_PLL6                    : AK19      : gnd    :                   :         :           :                
 VCCD_PLL12                   : AK20      : power  :                   : 1.2V    :           :                
 GNDA_PLL12                   : AK21      : gnd    :                   :         :           :                
 VCC_PLL12_OUT                : AK22      : power  :                   : 3.3V    : 12        :                
-dat_out55[2]                 : AK23      : output : 3.3-V LVTTL       :         : 8         : N              
-dat_out41[6]                 : AK24      : output : 3.3-V LVTTL       :         : 8         : N              
-dat_out57[1]                 : AK25      : output : 3.3-V LVTTL       :         : 8         : N              
-dat_out57[2]                 : AK26      : output : 3.3-V LVTTL       :         : 8         : N              
+RESERVED_INPUT               : AK23      :        :                   :         : 8         :                
+RESERVED_INPUT               : AK24      :        :                   :         : 8         :                
+RESERVED_INPUT               : AK25      :        :                   :         : 8         :                
+RESERVED_INPUT               : AK26      :        :                   :         : 8         :                
 RESERVED_INPUT               : AK27      :        :                   :         : 8         :                
 RESERVED_INPUT               : AK28      :        :                   :         : 8         :                
 GNDA_PLL8                    : AK29      : gnd    :                   :         :           :                
 VCCD_PLL8                    : AK30      : power  :                   : 1.2V    :           :                
-dat_out41[11]                : AK31      : output : 3.3-V LVTTL       :         : 1         : N              
+RESERVED_INPUT               : AK31      :        :                   :         : 1         :                
 422_1_DATA[9]                : AK32      : output : 3.3-V LVTTL       :         : 1         : Y              
 GND                          : AK33      : gnd    :                   :         :           :                
-dat_out41[14]                : AK34      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out41[15]                : AK35      : output : 3.3-V LVTTL       :         : 1         : N              
+RESERVED_INPUT               : AK34      :        :                   :         : 1         :                
+RESERVED_INPUT               : AK35      :        :                   :         : 1         :                
 422_2_DATA[11]               : AK36      : output : 3.3-V LVTTL       :         : 1         : Y              
 422_2_DATA[12]               : AK37      : output : 3.3-V LVTTL       :         : 1         : Y              
-dat_out58[7]                 : AK38      : output : 3.3-V LVTTL       :         : 1         : N              
+RESERVED_INPUT               : AK38      :        :                   :         : 1         :                
 RESERVED_INPUT               : AK39      :        :                   :         : 1         :                
-ATA4_DIORN                   : AL1       : output : 3.3-V LVTTL       :         : 6         : Y              
-ATA4_DMACK                   : AL2       : output : 3.3-V LVTTL       :         : 6         : Y              
+RESERVED_INPUT               : AL1       :        :                   :         : 6         :                
+RESERVED_INPUT               : AL2       :        :                   :         : 6         :                
 ATA3_DD[3]                   : AL3       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
 ATA3_DD[11]                  : AL4       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
 ATA2_DMARQ                   : AL5       : input  : 3.3-V LVTTL       :         : 6         : Y              
@@ -513,15 +513,15 @@ GNDA_PLL9                    : AL10      : gnd    :                   :         
 TEMPSCL                      : AL11      : output : 3.3-V LVTTL       :         : 7         : Y              
 FLASH_D[4]                   : AL12      : bidir  : 3.3-V LVTTL       :         : 7         : Y              
 RESERVED_INPUT               : AL13      :        :                   :         : 7         :                
-dat_out42[5]                 : AL14      : output : 3.3-V LVTTL       :         : 7         : N              
-dat_out46[6]                 : AL15      : output : 3.3-V LVTTL       :         : 7         : N              
+RESERVED_INPUT               : AL14      :        :                   :         : 7         :                
+RESERVED_INPUT               : AL15      :        :                   :         : 7         :                
 RESERVED_INPUT               : AL16      :        :                   :         : 7         :                
-dat_out42[15]                : AL17      : output : 3.3-V LVTTL       :         : 7         : N              
-dat_out42[13]                : AL18      : output : 3.3-V LVTTL       :         : 7         : N              
+RESERVED_INPUT               : AL17      :        :                   :         : 7         :                
+RESERVED_INPUT               : AL18      :        :                   :         : 7         :                
 VCCA_PLL6                    : AL19      : power  :                   : 1.2V    :           :                
 GND                          : AL20      : gnd    :                   :         :           :                
 VCCA_PLL12                   : AL21      : power  :                   : 1.2V    :           :                
-dat_out55[10]                : AL22      : output : 3.3-V LVTTL       :         : 8         : N              
+dat_out[4]                   : AL22      : output : 3.3-V LVTTL       :         : 8         : N              
 SDRAM_A_CLK                  : AL23      : output : 3.3-V LVTTL       :         : 8         : Y              
 ATA1_DA[2]                   : AL24      : output : 3.3-V LVTTL       :         : 8         : Y              
 FLASH_A[13]                  : AL25      : output : 3.3-V LVTTL       :         : 8         : Y              
@@ -539,15 +539,15 @@ RESERVED_INPUT               : AL35      :        :                   :         
 422_2_DATA[3]                : AL37      : output : 3.3-V LVTTL       :         : 1         : Y              
 LVDS2_DATA[6]                : AL38      : output : 3.3-V LVTTL       :         : 1         : Y              
 LVDS2_DATA[11]               : AL39      : output : 3.3-V LVTTL       :         : 1         : Y              
-ATA4_INTRQ                   : AM1       : input  : 3.3-V LVTTL       :         : 6         : Y              
-ATA4_DA[1]                   : AM2       : output : 3.3-V LVTTL       :         : 6         : Y              
+RESERVED_INPUT               : AM1       :        :                   :         : 6         :                
+RESERVED_INPUT               : AM2       :        :                   :         : 6         :                
 ATA3_DD[2]                   : AM3       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
 ATA3_DD[12]                  : AM4       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
 ATA2_IORDY                   : AM5       : input  : 3.3-V LVTTL       :         : 6         : Y              
-dat_out42[0]                 : AM6       : output : 3.3-V LVTTL       :         : 6         : N              
+RESERVED_INPUT               : AM6       :        :                   :         : 6         :                
 VCCIO6                       : AM7       : power  :                   : 3.3V    : 6         :                
-dat_out42[10]                : AM8       : output : 3.3-V LVTTL       :         : 6         : N              
-dat_out42[14]                : AM9       : output : 3.3-V LVTTL       :         : 6         : N              
+RESERVED_INPUT               : AM8       :        :                   :         : 6         :                
+RESERVED_INPUT               : AM9       :        :                   :         : 6         :                
 GND                          : AM10      : gnd    :                   :         :           :                
 SDRAM_A_A[6]                 : AM11      : output : 3.3-V LVTTL       :         : 7         : Y              
 SDRAM_A_A[10]                : AM12      : output : 3.3-V LVTTL       :         : 7         : Y              
@@ -558,16 +558,16 @@ FLASH_A[0]                   : AM16      : output : 3.3-V LVTTL       :         
 ATA1_DIOWN                   : AM17      : output : 3.3-V LVTTL       :         : 7         : Y              
 ATA1_IORDY                   : AM18      : input  : 3.3-V LVTTL       :         : 7         : Y              
 ATA1_INTRQ                   : AM19      : input  : 3.3-V LVTTL       :         : 7         : Y              
-dat_out58[10]                : AM20      : output : 3.3-V LVTTL       :         : 8         : N              
-SDRAM_B_A[11]                : AM21      : output : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_A[10]                : AM22      : output : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_A[13]                : AM23      : output : 3.3-V LVTTL       :         : 8         : Y              
+dat_out[15]                  : AM20      : output : 3.3-V LVTTL       :         : 8         : N              
+dat_out[10]                  : AM21      : output : 3.3-V LVTTL       :         : 8         : N              
+dat_out[11]                  : AM22      : output : 3.3-V LVTTL       :         : 8         : N              
+RESERVED_INPUT               : AM23      :        :                   :         : 8         :                
 SDRAM_A_A[7]                 : AM24      : output : 3.3-V LVTTL       :         : 8         : Y              
 SDRAM_A_A[5]                 : AM25      : output : 3.3-V LVTTL       :         : 8         : Y              
 FLASH_A[11]                  : AM26      : output : 3.3-V LVTTL       :         : 8         : Y              
 FLASH_A[9]                   : AM27      : output : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_CLK                  : AM28      : output : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_WE_N                 : AM29      : output : 3.3-V LVTTL       :         : 8         : Y              
+RESERVED_INPUT               : AM28      :        :                   :         : 8         :                
+RESERVED_INPUT               : AM29      :        :                   :         : 8         :                
 nCONFIG                      : AM30      :        :                   :         : 8         :                
 422_1_DATA[6]                : AM31      : output : 3.3-V LVTTL       :         : 1         : Y              
 422_1_DATA[5]                : AM32      : output : 3.3-V LVTTL       :         : 1         : Y              
@@ -578,12 +578,12 @@ RESERVED_INPUT               : AM35      :        :                   :         
 422_2_DATA[10]               : AM37      : output : 3.3-V LVTTL       :         : 1         : Y              
 LVDS2_DATA[10]               : AM38      : output : 3.3-V LVTTL       :         : 1         : Y              
 LVDS2_DATA[7]                : AM39      : output : 3.3-V LVTTL       :         : 1         : Y              
-ATA4_DA[0]                   : AN1       : output : 3.3-V LVTTL       :         : 6         : Y              
-ATA4_DA[2]                   : AN2       : output : 3.3-V LVTTL       :         : 6         : Y              
+RESERVED_INPUT               : AN1       :        :                   :         : 6         :                
+RESERVED_INPUT               : AN2       :        :                   :         : 6         :                
 ATA3_IDE_CS[1]               : AN3       : output : 3.3-V LVTTL       :         : 6         : Y              
 ATA3_DD[13]                  : AN4       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
 VREFB6                       : AN5       : power  :                   :         : 6         :                
-dat_out42[3]                 : AN6       : output : 3.3-V LVTTL       :         : 6         : N              
+RESERVED_INPUT               : AN6       :        :                   :         : 6         :                
 ATA3_DD[15]                  : AN7       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
 VCCIO7                       : AN8       : power  :                   : 3.3V    : 7         :                
 ATA3_DD[0]                   : AN9       : bidir  : 3.3-V LVTTL       :         : 7         : Y              
@@ -594,31 +594,31 @@ SDRAM_A_A[11]                : AN13      : output : 3.3-V LVTTL       :         
 SDRAM_A_A[13]                : AN14      : output : 3.3-V LVTTL       :         : 7         : Y              
 ATA1_DMARQ                   : AN15      : input  : 3.3-V LVTTL       :         : 7         : Y              
 ATA1_DD[15]                  : AN16      : bidir  : 3.3-V LVTTL       :         : 7         : Y              
-SDRAM_B_A[3]                 : AN17      : output : 3.3-V LVTTL       :         : 7         : Y              
+RESERVED_INPUT               : AN17      :        :                   :         : 7         :                
 ATA1_DIORN                   : AN18      : output : 3.3-V LVTTL       :         : 7         : Y              
 ATA1_DMACK                   : AN19      : output : 3.3-V LVTTL       :         : 7         : Y              
 SDRAM_A_D[31]                : AN20      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
 SDRAM_A_D[30]                : AN21      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_CKE                  : AN22      : output : 3.3-V LVTTL       :         : 8         : Y              
+dat_out[3]                   : AN22      : output : 3.3-V LVTTL       :         : 8         : N              
 SW[6]                        : AN23      : input  : 3.3-V LVTTL       :         : 8         : Y              
 SW[5]                        : AN24      : input  : 3.3-V LVTTL       :         : 8         : Y              
 SW[4]                        : AN25      : input  : 3.3-V LVTTL       :         : 8         : Y              
 FPGA_RESET                   : AN26      : input  : 3.3-V LVTTL       :         : 8         : Y              
 FPGA_RESET1                  : AN27      : input  : 3.3-V LVTTL       :         : 8         : Y              
 SW[1]                        : AN28      : input  : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_CAS_N                : AN29      : output : 3.3-V LVTTL       :         : 8         : Y              
+RESERVED_INPUT               : AN29      :        :                   :         : 8         :                
 GND                          : AN30      : gnd    :                   :         :           :                
 altera_reserved_tdi          : AN31      : input  : 3.3-V LVTTL       :         : 8         : N              
 VCCIO8                       : AN32      : power  :                   : 3.3V    : 8         :                
-dat_out41[12]                : AN33      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out41[5]                 : AN34      : output : 3.3-V LVTTL       :         : 1         : N              
+RESERVED_INPUT               : AN33      :        :                   :         : 1         :                
+RESERVED_INPUT               : AN34      :        :                   :         : 1         :                
 VREFB1                       : AN35      : power  :                   :         : 1         :                
 422_2_DATA[5]                : AN36      : output : 3.3-V LVTTL       :         : 1         : Y              
 422_2_CLK                    : AN37      : output : 3.3-V LVTTL       :         : 1         : Y              
 LVDS2_DATA[8]                : AN38      : output : 3.3-V LVTTL       :         : 1         : Y              
 LVDS2_DATA[9]                : AN39      : output : 3.3-V LVTTL       :         : 1         : Y              
-ATA4_IDE_CS[1]               : AP1       : output : 3.3-V LVTTL       :         : 6         : Y              
-ATA4_IDE_CS[0]               : AP2       : output : 3.3-V LVTTL       :         : 6         : Y              
+RESERVED_INPUT               : AP1       :        :                   :         : 6         :                
+RESERVED_INPUT               : AP2       :        :                   :         : 6         :                
 ATA3_DA[2]                   : AP3       : output : 3.3-V LVTTL       :         : 6         : Y              
 ATA3_IDE_CS[0]               : AP4       : output : 3.3-V LVTTL       :         : 6         : Y              
 ATA3_INTRQ                   : AP5       : input  : 3.3-V LVTTL       :         : 6         : Y              
@@ -634,23 +634,23 @@ ATA1_DD[0]                   : AP14      : bidir  : 3.3-V LVTTL       :         
 VREFB7                       : AP15      : power  :                   :         : 7         :                
 SDRAM_A_CKE                  : AP16      : output : 3.3-V LVTTL       :         : 7         : Y              
 VREFB7                       : AP17      : power  :                   :         : 7         :                
-SDRAM_B_A[6]                 : AP18      : output : 3.3-V LVTTL       :         : 7         : Y              
-SDRAM_B_A[8]                 : AP19      : output : 3.3-V LVTTL       :         : 7         : Y              
+RESERVED_INPUT               : AP18      :        :                   :         : 7         :                
+RESERVED_INPUT               : AP19      :        :                   :         : 7         :                
 SDRAM_A_D[29]                : AP20      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
 SDRAM_A_D[27]                : AP21      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_RAS_N                : AP22      : output : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_DQML                 : AP23      : output : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_DQMH                 : AP24      : output : 3.3-V LVTTL       :         : 8         : Y              
+dat_out[12]                  : AP22      : output : 3.3-V LVTTL       :         : 8         : N              
+RESERVED_INPUT               : AP23      :        :                   :         : 8         :                
+RESERVED_INPUT               : AP24      :        :                   :         : 8         :                
 VREFB8                       : AP25      : power  :                   :         : 8         :                
 SW[3]                        : AP26      : input  : 3.3-V LVTTL       :         : 8         : Y              
 SW[2]                        : AP27      : input  : 3.3-V LVTTL       :         : 8         : Y              
 VREFB8                       : AP28      : power  :                   :         : 8         :                
 SW[0]                        : AP29      : input  : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_A[12]                : AP30      : output : 3.3-V LVTTL       :         : 8         : Y              
+RESERVED_INPUT               : AP30      :        :                   :         : 8         :                
 VREFB8                       : AP31      : power  :                   :         : 8         :                
 altera_reserved_tck          : AP32      : input  : 3.3-V LVTTL       :         : 8         : N              
 altera_reserved_tms          : AP33      : input  : 3.3-V LVTTL       :         : 8         : N              
-dat_out42[8]                 : AP34      : output : 3.3-V LVTTL       :         : 1         : N              
+RESERVED_INPUT               : AP34      :        :                   :         : 1         :                
 RESERVED_INPUT               : AP35      :        :                   :         : 1         :                
 422_2_DATA[8]                : AP36      : output : 3.3-V LVTTL       :         : 1         : Y              
 422_1_DATA[14]               : AP37      : output : 3.3-V LVTTL       :         : 1         : Y              
@@ -659,9 +659,9 @@ RESERVED_INPUT               : AP35      :        :                   :         
 ATA5_RESETN                  : AR1       : output : 3.3-V LVTTL       :         : 6         : Y              
 ATA5_DD[7]                   : AR2       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
 ATA3_DA[1]                   : AR3       : output : 3.3-V LVTTL       :         : 6         : Y              
-ATA4_DD[4]                   : AR4       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
-ATA4_DMARQ                   : AR5       : input  : 3.3-V LVTTL       :         : 6         : Y              
-ATA4_DD[14]                  : AR6       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
+RESERVED_INPUT               : AR4       :        :                   :         : 6         :                
+RESERVED_INPUT               : AR5       :        :                   :         : 6         :                
+RESERVED_INPUT               : AR6       :        :                   :         : 6         :                
 VREFB7                       : AR7       : power  :                   :         : 7         :                
 ATA3_DD[1]                   : AR8       : bidir  : 3.3-V LVTTL       :         : 7         : Y              
 ATA2_DD[9]                   : AR9       : bidir  : 3.3-V LVTTL       :         : 7         : Y              
@@ -680,17 +680,17 @@ VCCIO8                       : AR21      : power  :                   : 3.3V    
 SDRAM_A_D[26]                : AR22      : bidir  : 3.3-V LVTTL       :         : 12        : Y              
 GND                          : AR23      : gnd    :                   :         :           :                
 SDRAM_A_D[22]                : AR24      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_A[4]                 : AR25      : output : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_A[5]                 : AR26      : output : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_A[2]                 : AR27      : output : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_A[7]                 : AR28      : output : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_A[0]                 : AR29      : output : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_A[9]                 : AR30      : output : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_A[14]                : AR31      : output : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_CS_N                 : AR32      : output : 3.3-V LVTTL       :         : 8         : Y              
+RESERVED_INPUT               : AR25      :        :                   :         : 8         :                
+RESERVED_INPUT               : AR26      :        :                   :         : 8         :                
+RESERVED_INPUT               : AR27      :        :                   :         : 8         :                
+RESERVED_INPUT               : AR28      :        :                   :         : 8         :                
+RESERVED_INPUT               : AR29      :        :                   :         : 8         :                
+RESERVED_INPUT               : AR30      :        :                   :         : 8         :                
+RESERVED_INPUT               : AR31      :        :                   :         : 8         :                
+RESERVED_INPUT               : AR32      :        :                   :         : 8         :                
 VREFB8                       : AR33      : power  :                   :         : 8         :                
-dat_out41[13]                : AR34      : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out41[9]                 : AR35      : output : 3.3-V LVTTL       :         : 1         : N              
+RESERVED_INPUT               : AR34      :        :                   :         : 1         :                
+RESERVED_INPUT               : AR35      :        :                   :         : 1         :                
 422_2_DATA[7]                : AR36      : output : 3.3-V LVTTL       :         : 1         : Y              
 422_1_DATA[2]                : AR37      : output : 3.3-V LVTTL       :         : 1         : Y              
 422_1_SYN                    : AR38      : output : 3.3-V LVTTL       :         : 1         : Y              
@@ -698,7 +698,7 @@ dat_out41[9]                 : AR35      : output : 3.3-V LVTTL       :         
 VCCIO6                       : AT1       : power  :                   : 3.3V    : 6         :                
 VREFB6                       : AT2       : power  :                   :         : 6         :                
 ATA5_DD[8]                   : AT3       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
-ATA4_IORDY                   : AT4       : input  : 3.3-V LVTTL       :         : 6         : Y              
+RESERVED_INPUT               : AT4       :        :                   :         : 6         :                
 nIO_PULLUP                   : AT5       :        :                   :         : 7         :                
 nCEO                         : AT6       :        :                   :         : 7         :                
 ATA2_RESETN                  : AT7       : output : 3.3-V LVTTL       :         : 7         : Y              
@@ -712,22 +712,22 @@ ATA2_DD[14]                  : AT14      : bidir  : 3.3-V LVTTL       :         
 ATA2_DD[0]                   : AT15      : bidir  : 3.3-V LVTTL       :         : 7         : Y              
 ATA2_DIOWN                   : AT16      : output : 3.3-V LVTTL       :         : 7         : Y              
 ATA2_DA[1]                   : AT17      : output : 3.3-V LVTTL       :         : 7         : Y              
-SDRAM_B_A[1]                 : AT18      : output : 3.3-V LVTTL       :         : 10        : Y              
-dat_out42[11]                : AT19      : output : 3.3-V LVTTL       :         : 7         : N              
-dat_out42[7]                 : AT20      : output : 3.3-V LVTTL       :         : 8         : N              
-RESERVED_INPUT               : AT21      :        :                   :         : 8         :                
+RESERVED_INPUT               : AT18      :        :                   :         : 10        :                
+en_out                       : AT19      : output : 3.3-V LVTTL       :         : 7         : N              
+dat_out[6]                   : AT20      : output : 3.3-V LVTTL       :         : 8         : N              
+dat_out[5]                   : AT21      : output : 3.3-V LVTTL       :         : 8         : N              
 SDRAM_A_D[24]                : AT22      : bidir  : 3.3-V LVTTL       :         : 12        : Y              
 VREFB8                       : AT23      : power  :                   :         : 8         :                
 SDRAM_A_D[20]                : AT24      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
 SDRAM_A_D[18]                : AT25      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
 SDRAM_A_D[16]                : AT26      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_D[14]                : AT27      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_D[12]                : AT28      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_D[10]                : AT29      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_D[8]                 : AT30      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_D[6]                 : AT31      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_D[4]                 : AT32      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_D[2]                 : AT33      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
+RESERVED_INPUT               : AT27      :        :                   :         : 8         :                
+RESERVED_INPUT               : AT28      :        :                   :         : 8         :                
+RESERVED_INPUT               : AT29      :        :                   :         : 8         :                
+RESERVED_INPUT               : AT30      :        :                   :         : 8         :                
+RESERVED_INPUT               : AT31      :        :                   :         : 8         :                
+RESERVED_INPUT               : AT32      :        :                   :         : 8         :                
+RESERVED_INPUT               : AT33      :        :                   :         : 8         :                
 RESERVED_INPUT               : AT34      :        :                   :         : 1         :                
 422_1_DATA[10]               : AT35      : output : 3.3-V LVTTL       :         : 1         : Y              
 422_2_DATA[6]                : AT36      : output : 3.3-V LVTTL       :         : 1         : Y              
@@ -738,8 +738,8 @@ GND+                         : AU1       :        :                   :         
 GND+                         : AU2       :        :                   :         : 6         :                
 ATA5_DD[9]                   : AU3       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
 ATA5_DD[10]                  : AU4       : bidir  : 3.3-V LVTTL       :         : 6         : Y              
-ATA4_DD[0]                   : AU5       : bidir  : 3.3-V LVTTL       :         : 7         : Y              
-ATA4_DD[1]                   : AU6       : bidir  : 3.3-V LVTTL       :         : 7         : Y              
+RESERVED_INPUT               : AU5       :        :                   :         : 7         :                
+RESERVED_INPUT               : AU6       :        :                   :         : 7         :                
 ATA2_DD[7]                   : AU7       : bidir  : 3.3-V LVTTL       :         : 7         : Y              
 ATA2_DD[6]                   : AU8       : bidir  : 3.3-V LVTTL       :         : 7         : Y              
 RESERVED_INPUT               : AU9       :        :                   :         : 7         :                
@@ -753,22 +753,22 @@ ATA2_DIORN                   : AU16      : output : 3.3-V LVTTL       :         
 ATA2_INTRQ                   : AU17      : input  : 3.3-V LVTTL       :         : 7         : Y              
 ATA2_DA[0]                   : AU18      : output : 3.3-V LVTTL       :         : 10        : Y              
 SMA_CLKIN8                   : AU19      : input  : 3.3-V LVTTL       :         : 7         : Y              
-dat_out42[6]                 : AU20      : output : 3.3-V LVTTL       :         : 8         : N              
-dat_out42[12]                : AU21      : output : 3.3-V LVTTL       :         : 8         : N              
+dat_out[9]                   : AU20      : output : 3.3-V LVTTL       :         : 8         : N              
+dat_out[2]                   : AU21      : output : 3.3-V LVTTL       :         : 8         : N              
 SDRAM_A_D[25]                : AU22      : bidir  : 3.3-V LVTTL       :         : 12        : Y              
 SDRAM_A_D[23]                : AU23      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
 SDRAM_A_D[21]                : AU24      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
 SDRAM_A_D[19]                : AU25      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
 SDRAM_A_D[17]                : AU26      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_D[15]                : AU27      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_D[13]                : AU28      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_D[11]                : AU29      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_D[9]                 : AU30      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_D[7]                 : AU31      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_D[5]                 : AU32      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_D[3]                 : AU33      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_D[1]                 : AU34      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_D[0]                 : AU35      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
+RESERVED_INPUT               : AU27      :        :                   :         : 8         :                
+RESERVED_INPUT               : AU28      :        :                   :         : 8         :                
+RESERVED_INPUT               : AU29      :        :                   :         : 8         :                
+RESERVED_INPUT               : AU30      :        :                   :         : 8         :                
+RESERVED_INPUT               : AU31      :        :                   :         : 8         :                
+RESERVED_INPUT               : AU32      :        :                   :         : 8         :                
+RESERVED_INPUT               : AU33      :        :                   :         : 8         :                
+RESERVED_INPUT               : AU34      :        :                   :         : 8         :                
+RESERVED_INPUT               : AU35      :        :                   :         : 8         :                
 422_1_DATA[4]                : AU36      : output : 3.3-V LVTTL       :         : 1         : Y              
 422_1_DATA[3]                : AU37      : output : 3.3-V LVTTL       :         : 1         : Y              
 GND+                         : AU38      :        :                   :         : 1         :                
@@ -791,8 +791,8 @@ TEMPSDA                      : AV15      : bidir  : 3.3-V LVTTL       :         
 SDRAM_A_D[0]                 : AV16      : bidir  : 3.3-V LVTTL       :         : 7         : Y              
 SDRAM_A_D[2]                 : AV17      : bidir  : 3.3-V LVTTL       :         : 7         : Y              
 SDRAM_A_D[3]                 : AV18      : bidir  : 3.3-V LVTTL       :         : 10        : Y              
-dat_out42[4]                 : AV19      : output : 3.3-V LVTTL       :         : 10        : N              
-dat_out42[2]                 : AV20      : output : 3.3-V LVTTL       :         : 7         : N              
+RESERVED_INPUT               : AV19      :        :                   :         : 10        :                
+dat_out[8]                   : AV20      : output : 3.3-V LVTTL       :         : 7         : N              
 SDRAM_A_D[5]                 : AV21      : bidir  : 3.3-V LVTTL       :         : 12        : Y              
 SDRAM_A_D[6]                 : AV22      : bidir  : 3.3-V LVTTL       :         : 12        : Y              
 SDRAM_A_D[8]                 : AV23      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
@@ -800,14 +800,14 @@ SDRAM_A_D[9]                 : AV24      : bidir  : 3.3-V LVTTL       :         
 SDRAM_A_D[11]                : AV25      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
 SDRAM_A_D[13]                : AV26      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
 SDRAM_A_D[15]                : AV27      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_D[17]                : AV28      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_D[19]                : AV29      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_D[21]                : AV30      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_D[23]                : AV31      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_D[25]                : AV32      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_D[27]                : AV33      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_D[29]                : AV34      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_D[31]                : AV35      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
+RESERVED_INPUT               : AV28      :        :                   :         : 8         :                
+RESERVED_INPUT               : AV29      :        :                   :         : 8         :                
+RESERVED_INPUT               : AV30      :        :                   :         : 8         :                
+RESERVED_INPUT               : AV31      :        :                   :         : 8         :                
+RESERVED_INPUT               : AV32      :        :                   :         : 8         :                
+RESERVED_INPUT               : AV33      :        :                   :         : 8         :                
+RESERVED_INPUT               : AV34      :        :                   :         : 8         :                
+RESERVED_INPUT               : AV35      :        :                   :         : 8         :                
 VCCSEL                       : AV36      :        :                   :         : 8         :                
 RESERVED_INPUT               : AV37      :        :                   :         : 1         :                
 422_1_DATA[11]               : AV38      : output : 3.3-V LVTTL       :         : 1         : Y              
@@ -829,8 +829,8 @@ ATA5_IDE_CS[0]               : AW15      : output : 3.3-V LVTTL       :         
 GND                          : AW16      : gnd    :                   :         :           :                
 SDRAM_A_D[1]                 : AW17      : bidir  : 3.3-V LVTTL       :         : 7         : Y              
 VCCIO7                       : AW18      : power  :                   : 3.3V    : 7         :                
-en_out41                     : AW19      : output : 3.3-V LVTTL       :         : 10        : N              
-dat_out42[9]                 : AW20      : output : 3.3-V LVTTL       :         : 7         : N              
+RESERVED_INPUT               : AW19      :        :                   :         : 10        :                
+dat_out[0]                   : AW20      : output : 3.3-V LVTTL       :         : 7         : N              
 SDRAM_A_D[4]                 : AW21      : bidir  : 3.3-V LVTTL       :         : 12        : Y              
 VCCIO8                       : AW22      : power  :                   : 3.3V    : 8         :                
 SDRAM_A_D[7]                 : AW23      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
@@ -838,14 +838,14 @@ GND                          : AW24      : gnd    :                   :         
 SDRAM_A_D[10]                : AW25      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
 SDRAM_A_D[12]                : AW26      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
 SDRAM_A_D[14]                : AW27      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_D[16]                : AW28      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_D[18]                : AW29      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_D[20]                : AW30      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_D[22]                : AW31      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_D[24]                : AW32      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_D[26]                : AW33      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_D[28]                : AW34      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
-SDRAM_B_D[30]                : AW35      : bidir  : 3.3-V LVTTL       :         : 8         : Y              
+RESERVED_INPUT               : AW28      :        :                   :         : 8         :                
+RESERVED_INPUT               : AW29      :        :                   :         : 8         :                
+RESERVED_INPUT               : AW30      :        :                   :         : 8         :                
+RESERVED_INPUT               : AW31      :        :                   :         : 8         :                
+RESERVED_INPUT               : AW32      :        :                   :         : 8         :                
+RESERVED_INPUT               : AW33      :        :                   :         : 8         :                
+RESERVED_INPUT               : AW34      :        :                   :         : 8         :                
+RESERVED_INPUT               : AW35      :        :                   :         : 8         :                
 VCCIO8                       : AW36      : power  :                   : 3.3V    : 8         :                
 altera_reserved_ntrst        : AW37      : input  : 3.3-V LVTTL       :         : 8         : N              
 GND                          : AW38      : gnd    :                   :         :           :                
@@ -853,23 +853,23 @@ GND                          : B1        : gnd    :                   :         
 JP1_2                        : B2        : output : 3.3-V LVTTL       :         : 5         : Y              
 JP1_1                        : B3        : output : 3.3-V LVTTL       :         : 5         : Y              
 TEMPDIODEp                   : B4        :        :                   :         :           :                
-SDRAM_C_D[31]                : B5        : bidir  : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_C_D[29]                : B6        : bidir  : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_C_D[25]                : B7        : bidir  : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_C_CLK                  : B8        : output : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_C_D[22]                : B9        : bidir  : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_C_D[20]                : B10       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_C_D[18]                : B11       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_C_D[16]                : B12       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_D_D[30]                : B13       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_D_D[28]                : B14       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_D_D[26]                : B15       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_D_D[25]                : B16       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_D_CLK                  : B17       : output : 3.3-V LVTTL       :         : 4         : Y              
+RESERVED_INPUT               : B5        :        :                   :         : 4         :                
+RESERVED_INPUT               : B6        :        :                   :         : 4         :                
+RESERVED_INPUT               : B7        :        :                   :         : 4         :                
+RESERVED_INPUT               : B8        :        :                   :         : 4         :                
+RESERVED_INPUT               : B9        :        :                   :         : 4         :                
+RESERVED_INPUT               : B10       :        :                   :         : 4         :                
+RESERVED_INPUT               : B11       :        :                   :         : 4         :                
+RESERVED_INPUT               : B12       :        :                   :         : 4         :                
+RESERVED_INPUT               : B13       :        :                   :         : 4         :                
+RESERVED_INPUT               : B14       :        :                   :         : 4         :                
+RESERVED_INPUT               : B15       :        :                   :         : 4         :                
+RESERVED_INPUT               : B16       :        :                   :         : 4         :                
+RESERVED_INPUT               : B17       :        :                   :         : 4         :                
 RESERVED_INPUT               : B18       :        :                   :         : 9         :                
 RESERVED_INPUT               : B19       :        :                   :         : 9         :                
 RESERVED_INPUT               : B20       :        :                   :         : 4         :                
-ser_tx                       : B21       : output : 3.3-V LVTTL       :         : 11        : N              
+RESERVED_INPUT               : B21       :        :                   :         : 11        :                
 RESERVED_INPUT               : B22       :        :                   :         : 11        :                
 PHY_RXD[6]                   : B23       : input  : 2.5 V             :         : 3         : Y              
 PHY_RXD[5]                   : B24       : input  : 2.5 V             :         : 3         : Y              
@@ -892,15 +892,15 @@ GND+                         : C1        :        :                   :         
 GND+                         : C2        :        :                   :         : 5         :                
 JP1_4                        : C3        : output : 3.3-V LVTTL       :         : 5         : Y              
 JP1_3                        : C4        : output : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_D_D[4]                 : C5        : bidir  : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_D_D[6]                 : C6        : bidir  : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_C_D[27]                : C7        : bidir  : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_D_D[9]                 : C8        : bidir  : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_D_D[11]                : C9        : bidir  : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_D_D[13]                : C10       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_D_D[14]                : C11       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_D_A[12]                : C12       : output : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_D_A[9]                 : C13       : output : 3.3-V LVTTL       :         : 4         : Y              
+RESERVED_INPUT               : C5        :        :                   :         : 4         :                
+RESERVED_INPUT               : C6        :        :                   :         : 4         :                
+RESERVED_INPUT               : C7        :        :                   :         : 4         :                
+RESERVED_INPUT               : C8        :        :                   :         : 4         :                
+RESERVED_INPUT               : C9        :        :                   :         : 4         :                
+RESERVED_INPUT               : C10       :        :                   :         : 4         :                
+RESERVED_INPUT               : C11       :        :                   :         : 4         :                
+RESERVED_INPUT               : C12       :        :                   :         : 4         :                
+RESERVED_INPUT               : C13       :        :                   :         : 4         :                
 SENDED[2]                    : C14       : output : 3.3-V LVTTL       :         : 4         : Y              
 SENDED[3]                    : C15       : output : 3.3-V LVTTL       :         : 4         : Y              
 RECEIVED[0]                  : C16       : input  : 3.3-V LVTTL       :         : 4         : Y              
@@ -929,17 +929,17 @@ GND+                         : C38       :        :                   :         
 GND+                         : C39       :        :                   :         : 2         :                
 VCCIO5                       : D1        : power  :                   : 3.3V    : 5         :                
 VREFB5                       : D2        : power  :                   :         : 5         :                
-SDRAM_D_D[2]                 : D3        : bidir  : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_D_D[3]                 : D4        : bidir  : 3.3-V LVTTL       :         : 5         : Y              
+RESERVED_INPUT               : D3        :        :                   :         : 5         :                
+RESERVED_INPUT               : D4        :        :                   :         : 5         :                
 VREFB4                       : D5        : power  :                   :         : 4         :                
-SDRAM_D_D[5]                 : D6        : bidir  : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_D_DQMH                 : D7        : output : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_D_D[8]                 : D8        : bidir  : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_D_D[10]                : D9        : bidir  : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_D_D[12]                : D10       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_D_D[15]                : D11       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_D_CKE                  : D12       : output : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_D_A[11]                : D13       : output : 3.3-V LVTTL       :         : 4         : Y              
+RESERVED_INPUT               : D6        :        :                   :         : 4         :                
+RESERVED_INPUT               : D7        :        :                   :         : 4         :                
+RESERVED_INPUT               : D8        :        :                   :         : 4         :                
+RESERVED_INPUT               : D9        :        :                   :         : 4         :                
+RESERVED_INPUT               : D10       :        :                   :         : 4         :                
+RESERVED_INPUT               : D11       :        :                   :         : 4         :                
+RESERVED_INPUT               : D12       :        :                   :         : 4         :                
+RESERVED_INPUT               : D13       :        :                   :         : 4         :                
 SENDED[5]                    : D14       : output : 3.3-V LVTTL       :         : 4         : Y              
 SENDED[6]                    : D15       : output : 3.3-V LVTTL       :         : 4         : Y              
 SENDED[7]                    : D16       : output : 3.3-V LVTTL       :         : 4         : Y              
@@ -968,20 +968,20 @@ VREFB2                       : D38       : power  :                   :         
 VCCIO2                       : D39       : power  :                   : 3.3V    : 2         :                
 JP2_1                        : E1        : output : 3.3-V LVTTL       :         : 5         : Y              
 JP1_5                        : E2        : output : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_D_D[0]                 : E3        : bidir  : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_D_D[1]                 : E4        : bidir  : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_D_CS_N                 : E5        : output : 3.3-V LVTTL       :         : 5         : Y              
+RESERVED_INPUT               : E3        :        :                   :         : 5         :                
+RESERVED_INPUT               : E4        :        :                   :         : 5         :                
+RESERVED_INPUT               : E5        :        :                   :         : 5         :                
 RESERVED_INPUT               : E6        :        :                   :         : 5         :                
 MSEL2                        : E7        :        :                   :         : 4         :                
-SDRAM_D_D[7]                 : E8        : bidir  : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_D_A[10]                : E9        : output : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_D_A[13]                : E10       : output : 3.3-V LVTTL       :         : 4         : Y              
+RESERVED_INPUT               : E8        :        :                   :         : 4         :                
+RESERVED_INPUT               : E9        :        :                   :         : 4         :                
+RESERVED_INPUT               : E10       :        :                   :         : 4         :                
 RESERVED_INPUT               : E11       :        :                   :         : 4         :                
 SDRAM_E_A[8]                 : E12       : output : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_D_A[8]                 : E13       : output : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_D_A[7]                 : E14       : output : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_D_A[6]                 : E15       : output : 3.3-V LVTTL       :         : 4         : Y              
-SDRAM_D_A[4]                 : E16       : output : 3.3-V LVTTL       :         : 4         : Y              
+RESERVED_INPUT               : E13       :        :                   :         : 4         :                
+RESERVED_INPUT               : E14       :        :                   :         : 4         :                
+RESERVED_INPUT               : E15       :        :                   :         : 4         :                
+RESERVED_INPUT               : E16       :        :                   :         : 4         :                
 GND                          : E17       : gnd    :                   :         :           :                
 RESERVED_INPUT               : E18       :        :                   :         : 9         :                
 VCCIO4                       : E19       : power  :                   : 3.3V    : 4         :                
@@ -1008,9 +1008,9 @@ LVDS1_DATA[1]                : E39       : output : 3.3-V LVTTL       :         
 JP2_3                        : F1        : output : 3.3-V LVTTL       :         : 5         : Y              
 JP2_2                        : F2        : output : 3.3-V LVTTL       :         : 5         : Y              
 RESERVED_INPUT               : F3        :        :                   :         : 5         :                
-SDRAM_C_D[13]                : F4        : bidir  : 3.3-V LVTTL       :         : 5         : Y              
-dat_out43[4]                 : F5        : output : 3.3-V LVTTL       :         : 5         : N              
-dat_out43[2]                 : F6        : output : 3.3-V LVTTL       :         : 5         : N              
+RESERVED_INPUT               : F4        :        :                   :         : 5         :                
+RESERVED_INPUT               : F5        :        :                   :         : 5         :                
+RESERVED_INPUT               : F6        :        :                   :         : 5         :                
 TEMPDIODEn                   : F7        :        :                   :         :           :                
 altera_reserved_tdo          : F8        : output : 3.3-V LVTTL       :         : 4         : N              
 VREFB4                       : F9        : power  :                   :         : 4         :                
@@ -1020,7 +1020,7 @@ VREFB4                       : F12       : power  :                   :         
 SDRAM_E_A[9]                 : F13       : output : 3.3-V LVTTL       :         : 4         : Y              
 SDRAM_E_A[11]                : F14       : output : 3.3-V LVTTL       :         : 4         : Y              
 VREFB4                       : F15       : power  :                   :         : 4         :                
-SDRAM_D_A[5]                 : F16       : output : 3.3-V LVTTL       :         : 4         : Y              
+RESERVED_INPUT               : F16       :        :                   :         : 4         :                
 VREFB4                       : F17       : power  :                   :         : 4         :                
 RECEIVED[6]                  : F18       : input  : 3.3-V LVTTL       :         : 4         : Y              
 RECEIVED[3]                  : F19       : input  : 3.3-V LVTTL       :         : 4         : Y              
@@ -1048,7 +1048,7 @@ JP2_5                        : G1        : output : 3.3-V LVTTL       :         
 JP2_4                        : G2        : output : 3.3-V LVTTL       :         : 5         : Y              
 FPGA_SDA                     : G3        : bidir  : 3.3-V LVTTL       :         : 5         : Y              
 FPGA_SCL                     : G4        : output : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_D_CAS_N                : G5        : output : 3.3-V LVTTL       :         : 5         : Y              
+RESERVED_INPUT               : G5        :        :                   :         : 5         :                
 RESERVED_INPUT               : G6        :        :                   :         : 5         :                
 VREFB5                       : G7        : power  :                   :         : 5         :                
 VCCIO4                       : G8        : power  :                   : 3.3V    : 4         :                
@@ -1085,12 +1085,12 @@ LVDS1_DATA[2]                : G38       : output : 3.3-V LVTTL       :         
 LVDS1_DATA[3]                : G39       : output : 3.3-V LVTTL       :         : 2         : Y              
 UART_TX1                     : H1        : output : 3.3-V LVTTL       :         : 5         : Y              
 UART_RX1                     : H2        : input  : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_C_D[15]                : H3        : bidir  : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_C_D[14]                : H4        : bidir  : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_D_A[14]                : H5        : output : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_D_A[3]                 : H6        : output : 3.3-V LVTTL       :         : 5         : Y              
+RESERVED_INPUT               : H3        :        :                   :         : 5         :                
+RESERVED_INPUT               : H4        :        :                   :         : 5         :                
+RESERVED_INPUT               : H5        :        :                   :         : 5         :                
+RESERVED_INPUT               : H6        :        :                   :         : 5         :                
 VCCIO5                       : H7        : power  :                   : 3.3V    : 5         :                
-SDRAM_D_A[1]                 : H8        : output : 3.3-V LVTTL       :         : 5         : Y              
+RESERVED_INPUT               : H8        :        :                   :         : 5         :                
 SDRAM_E_A[5]                 : H9        : output : 3.3-V LVTTL       :         : 5         : Y              
 MSEL0                        : H10       :        :                   :         : 4         :                
 SDRAM_E_D[10]                : H11       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
@@ -1102,7 +1102,7 @@ SDRAM_E_A[0]                 : H16       : output : 3.3-V LVTTL       :         
 SDRAM_E_A[10]                : H17       : output : 3.3-V LVTTL       :         : 4         : Y              
 SDRAM_E_A[14]                : H18       : output : 3.3-V LVTTL       :         : 4         : Y              
 SDRAM_E_D[14]                : H19       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
-dat_out43[0]                 : H20       : output : 3.3-V LVTTL       :         : 4         : N              
+RESERVED_INPUT               : H20       :        :                   :         : 4         :                
 ~ASDO~ / RESERVED_INPUT      : H21       : input  : 2.5 V             :         : 3         : N              
 ~DATA0~ / RESERVED_INPUT     : H22       : input  : 2.5 V             :         : 3         : N              
 RESERVED_INPUT               : H23       :        :                   :         : 3         :                
@@ -1124,22 +1124,22 @@ LVDS1_DATA[15]               : H38       : output : 3.3-V LVTTL       :         
 LVDS1_DATA[14]               : H39       : output : 3.3-V LVTTL       :         : 2         : Y              
 LED[14]                      : J1        : output : 3.3-V LVTTL       :         : 5         : Y              
 LED[15]                      : J2        : output : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_C_D[11]                : J3        : bidir  : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_C_D[12]                : J4        : bidir  : 3.3-V LVTTL       :         : 5         : Y              
+RESERVED_INPUT               : J3        :        :                   :         : 5         :                
+RESERVED_INPUT               : J4        :        :                   :         : 5         :                
 VREFB5                       : J5        : power  :                   :         : 5         :                
-SDRAM_D_A[0]                 : J6        : output : 3.3-V LVTTL       :         : 5         : Y              
+RESERVED_INPUT               : J6        :        :                   :         : 5         :                
 SDRAM_E_DQMH                 : J7        : output : 3.3-V LVTTL       :         : 5         : Y              
 SDRAM_E_D[8]                 : J8        : bidir  : 3.3-V LVTTL       :         : 5         : Y              
 SDRAM_E_A[4]                 : J9        : output : 3.3-V LVTTL       :         : 5         : Y              
 GND                          : J10       : gnd    :                   :         :           :                
 SDRAM_E_D[12]                : J11       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
 RESERVED_INPUT               : J12       :        :                   :         : 4         :                
-dat_out43[9]                 : J13       : output : 3.3-V LVTTL       :         : 4         : N              
+RESERVED_INPUT               : J13       :        :                   :         : 4         :                
 RESERVED_INPUT               : J14       :        :                   :         : 4         :                
-dat_out43[12]                : J15       : output : 3.3-V LVTTL       :         : 4         : N              
+RESERVED_INPUT               : J15       :        :                   :         : 4         :                
 RESERVED_INPUT               : J16       :        :                   :         : 4         :                
 RESERVED_INPUT               : J17       :        :                   :         : 4         :                
-dat_out43[10]                : J18       : output : 3.3-V LVTTL       :         : 4         : N              
+RESERVED_INPUT               : J18       :        :                   :         : 4         :                
 GNDA_PLL5                    : J19       : gnd    :                   :         :           :                
 GND                          : J20       : gnd    :                   :         :           :                
 GNDA_PLL11                   : J21       : gnd    :                   :         :           :                
@@ -1163,20 +1163,20 @@ LVDS1_DATA[4]                : J38       : output : 3.3-V LVTTL       :         
 LVDS1_CLK                    : J39       : output : 3.3-V LVTTL       :         : 2         : Y              
 LED[12]                      : K1        : output : 3.3-V LVTTL       :         : 5         : Y              
 LED[13]                      : K2        : output : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_C_D[9]                 : K3        : bidir  : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_C_D[10]                : K4        : bidir  : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_D_A[2]                 : K5        : output : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_D_WE_N                 : K6        : output : 3.3-V LVTTL       :         : 5         : Y              
+RESERVED_INPUT               : K3        :        :                   :         : 5         :                
+RESERVED_INPUT               : K4        :        :                   :         : 5         :                
+RESERVED_INPUT               : K5        :        :                   :         : 5         :                
+RESERVED_INPUT               : K6        :        :                   :         : 5         :                
 GND                          : K7        : gnd    :                   :         :           :                
-dat_out43[14]                : K8        : output : 3.3-V LVTTL       :         : 5         : N              
+RESERVED_INPUT               : K8        :        :                   :         : 5         :                
 SDRAM_E_D[9]                 : K9        : bidir  : 3.3-V LVTTL       :         : 5         : Y              
 GNDA_PLL10                   : K10       : gnd    :                   :         :           :                
 GNDA_PLL10                   : K11       : gnd    :                   :         :           :                
-dat_out43[1]                 : K12       : output : 3.3-V LVTTL       :         : 4         : N              
+RESERVED_INPUT               : K12       :        :                   :         : 4         :                
 RESERVED_INPUT               : K13       :        :                   :         : 4         :                
 RESERVED_INPUT               : K14       :        :                   :         : 4         :                
 RESERVED_INPUT               : K15       :        :                   :         : 4         :                
-dat_out43[7]                 : K16       : output : 3.3-V LVTTL       :         : 4         : N              
+RESERVED_INPUT               : K16       :        :                   :         : 4         :                
 RESERVED_INPUT               : K17       :        :                   :         : 4         :                
 VCC_PLL5_OUT                 : K18       : power  :                   : 3.3V    : 9         :                
 GNDA_PLL5                    : K19       : gnd    :                   :         :           :                
@@ -1202,20 +1202,20 @@ LVDS1_DATA[13]               : K38       : output : 3.3-V LVTTL       :         
 LVDS1_DATA[5]                : K39       : output : 3.3-V LVTTL       :         : 2         : Y              
 LED[10]                      : L1        : output : 3.3-V LVTTL       :         : 5         : Y              
 LED[11]                      : L2        : output : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_C_DQMH                 : L3        : output : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_C_D[8]                 : L4        : bidir  : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_C_A[3]                 : L5        : output : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_D_DQML                 : L6        : output : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_D_D[23]                : L7        : bidir  : 3.3-V LVTTL       :         : 5         : Y              
+RESERVED_INPUT               : L3        :        :                   :         : 5         :                
+RESERVED_INPUT               : L4        :        :                   :         : 5         :                
+RESERVED_INPUT               : L5        :        :                   :         : 5         :                
+RESERVED_INPUT               : L6        :        :                   :         : 5         :                
+RESERVED_INPUT               : L7        :        :                   :         : 5         :                
 RESERVED_INPUT               : L8        :        :                   :         : 5         :                
-dat_out43[13]                : L9        : output : 3.3-V LVTTL       :         : 5         : N              
-dat_out43[5]                 : L10       : output : 3.3-V LVTTL       :         : 5         : N              
+RESERVED_INPUT               : L9        :        :                   :         : 5         :                
+RESERVED_INPUT               : L10       :        :                   :         : 5         :                
 VCCA_PLL10                   : L11       : power  :                   : 1.2V    :           :                
 VCCD_PLL10                   : L12       : power  :                   : 1.2V    :           :                
 RESERVED_INPUT               : L13       :        :                   :         : 4         :                
 RESERVED_INPUT               : L14       :        :                   :         : 4         :                
 RESERVED_INPUT               : L15       :        :                   :         : 4         :                
-dat_out43[3]                 : L16       : output : 3.3-V LVTTL       :         : 4         : N              
+RESERVED_INPUT               : L16       :        :                   :         : 4         :                
 RESERVED_INPUT               : L17       :        :                   :         : 4         :                
 RESERVED_INPUT               : L18       :        :                   :         : 4         :                
 VCCD_PLL5                    : L19       : power  :                   : 1.2V    :           :                
@@ -1233,7 +1233,7 @@ SDRAM_E_D[7]                 : L30       : bidir  : 3.3-V LVTTL       :         
 SDRAM_E_D[6]                 : L31       : bidir  : 3.3-V LVTTL       :         : 2         : Y              
 RESERVED_INPUT               : L32       :        :                   :         : 2         :                
 RESERVED_INPUT               : L33       :        :                   :         : 2         :                
-RESERVED_INPUT               : L34       :        :                   :         : 2         :                
+SW[7]                        : L34       : input  : 3.3-V LVTTL       :         : 2         : N              
 RESERVED_INPUT               : L35       :        :                   :         : 2         :                
 RESERVED_INPUT               : L36       :        :                   :         : 2         :                
 RESERVED_INPUT               : L37       :        :                   :         : 2         :                
@@ -1241,10 +1241,10 @@ LVDS1_SYN                    : L38       : output : 3.3-V LVTTL       :         
 LVDS2_DATA[15]               : L39       : output : 3.3-V LVTTL       :         : 2         : Y              
 LED[8]                       : M1        : output : 3.3-V LVTTL       :         : 5         : Y              
 LED[9]                       : M2        : output : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_C_D[6]                 : M3        : bidir  : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_C_D[7]                 : M4        : bidir  : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_C_A[4]                 : M5        : output : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_D_RAS_N                : M6        : output : 3.3-V LVTTL       :         : 5         : Y              
+RESERVED_INPUT               : M3        :        :                   :         : 5         :                
+RESERVED_INPUT               : M4        :        :                   :         : 5         :                
+RESERVED_INPUT               : M5        :        :                   :         : 5         :                
+RESERVED_INPUT               : M6        :        :                   :         : 5         :                
 RESERVED_INPUT               : M7        :        :                   :         : 5         :                
 RESERVED_INPUT               : M8        :        :                   :         : 5         :                
 RESERVED_INPUT               : M9        :        :                   :         : 5         :                
@@ -1257,7 +1257,7 @@ RESERVED_INPUT               : M15       :        :                   :         
 RESERVED_INPUT               : M16       :        :                   :         : 4         :                
 RESERVED_INPUT               : M17       :        :                   :         : 4         :                
 RESERVED_INPUT               : M18       :        :                   :         : 4         :                
-dat_out43[8]                 : M19       : output : 3.3-V LVTTL       :         : 4         : N              
+RESERVED_INPUT               : M19       :        :                   :         : 4         :                
 RESERVED_INPUT               : M20       :        :                   :         : 3         :                
 RESERVED_INPUT               : M21       :        :                   :         : 3         :                
 RESERVED_INPUT               : M22       :        :                   :         : 3         :                
@@ -1280,10 +1280,10 @@ LVDS2_DATA[2]                : M38       : output : 3.3-V LVTTL       :         
 RESERVED_INPUT               : M39       :        :                   :         : 2         :                
 LED[6]                       : N1        : output : 3.3-V LVTTL       :         : 5         : Y              
 LED[7]                       : N2        : output : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_C_D[4]                 : N3        : bidir  : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_C_D[5]                 : N4        : bidir  : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_C_A[1]                 : N5        : output : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_D_D[16]                : N6        : bidir  : 3.3-V LVTTL       :         : 5         : Y              
+RESERVED_INPUT               : N3        :        :                   :         : 5         :                
+RESERVED_INPUT               : N4        :        :                   :         : 5         :                
+RESERVED_INPUT               : N5        :        :                   :         : 5         :                
+RESERVED_INPUT               : N6        :        :                   :         : 5         :                
 RESERVED_INPUT               : N7        :        :                   :         : 5         :                
 RESERVED_INPUT               : N8        :        :                   :         : 5         :                
 RESERVED_INPUT               : N9        :        :                   :         : 5         :                
@@ -1292,12 +1292,12 @@ RESERVED_INPUT               : N11       :        :                   :         
 RESERVED_INPUT               : N12       :        :                   :         : 5         :                
 RESERVED_INPUT               : N13       :        :                   :         : 4         :                
 RESERVED_INPUT               : N14       :        :                   :         : 4         :                
-dat_out43[6]                 : N15       : output : 3.3-V LVTTL       :         : 4         : N              
+RESERVED_INPUT               : N15       :        :                   :         : 4         :                
 RESERVED_INPUT               : N16       :        :                   :         : 4         :                
 RESERVED_INPUT               : N17       :        :                   :         : 4         :                
-dat_out43[11]                : N18       : output : 3.3-V LVTTL       :         : 4         : N              
+RESERVED_INPUT               : N18       :        :                   :         : 4         :                
 RESERVED_INPUT               : N19       :        :                   :         : 4         :                
-dat_out43[15]                : N20       : output : 3.3-V LVTTL       :         : 4         : N              
+RESERVED_INPUT               : N20       :        :                   :         : 4         :                
 RESERVED_INPUT               : N21       :        :                   :         : 3         :                
 RESERVED_INPUT               : N22       :        :                   :         : 3         :                
 RESERVED_INPUT               : N23       :        :                   :         : 3         :                
@@ -1319,10 +1319,10 @@ RESERVED_INPUT               : N38       :        :                   :         
 LVDS2_DATA[12]               : N39       : output : 3.3-V LVTTL       :         : 2         : Y              
 LED[4]                       : P1        : output : 3.3-V LVTTL       :         : 5         : Y              
 LED[5]                       : P2        : output : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_C_D[2]                 : P3        : bidir  : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_C_D[3]                 : P4        : bidir  : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_C_A[6]                 : P5        : output : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_D_D[17]                : P6        : bidir  : 3.3-V LVTTL       :         : 5         : Y              
+RESERVED_INPUT               : P3        :        :                   :         : 5         :                
+RESERVED_INPUT               : P4        :        :                   :         : 5         :                
+RESERVED_INPUT               : P5        :        :                   :         : 5         :                
+RESERVED_INPUT               : P6        :        :                   :         : 5         :                
 RESERVED_INPUT               : P7        :        :                   :         : 5         :                
 RESERVED_INPUT               : P8        :        :                   :         : 5         :                
 RESERVED_INPUT               : P9        :        :                   :         : 5         :                
@@ -1358,11 +1358,11 @@ RESERVED_INPUT               : P38       :        :                   :         
 LVDS2_DATA[5]                : P39       : output : 3.3-V LVTTL       :         : 2         : Y              
 LED[2]                       : R1        : output : 3.3-V LVTTL       :         : 5         : Y              
 LED[3]                       : R2        : output : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_C_D[0]                 : R3        : bidir  : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_C_D[1]                 : R4        : bidir  : 3.3-V LVTTL       :         : 5         : Y              
+RESERVED_INPUT               : R3        :        :                   :         : 5         :                
+RESERVED_INPUT               : R4        :        :                   :         : 5         :                
 VREFB5                       : R5        : power  :                   :         : 5         :                
-SDRAM_C_A[10]                : R6        : output : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_D_D[18]                : R7        : bidir  : 3.3-V LVTTL       :         : 5         : Y              
+RESERVED_INPUT               : R6        :        :                   :         : 5         :                
+RESERVED_INPUT               : R7        :        :                   :         : 5         :                
 RESERVED_INPUT               : R8        :        :                   :         : 5         :                
 RESERVED_INPUT               : R9        :        :                   :         : 5         :                
 RESERVED_INPUT               : R10       :        :                   :         : 5         :                
@@ -1393,14 +1393,14 @@ RESERVED_INPUT               : R34       :        :                   :         
 VREFB2                       : R35       : power  :                   :         : 2         :                
 RESERVED_INPUT               : R36       :        :                   :         : 2         :                
 RESERVED_INPUT               : R37       :        :                   :         : 2         :                
-dat_out56[14]                : R38       : output : 3.3-V LVTTL       :         : 2         : N              
-dat_out44[13]                : R39       : output : 3.3-V LVTTL       :         : 2         : N              
+RESERVED_INPUT               : R38       :        :                   :         : 2         :                
+RESERVED_INPUT               : R39       :        :                   :         : 2         :                
 GND                          : T1        : gnd    :                   :         :           :                
 LED[1]                       : T2        : output : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_C_RAS_N                : T3        : output : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_C_WE_N                 : T4        : output : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_C_A[11]                : T5        : output : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_D_D[19]                : T6        : bidir  : 3.3-V LVTTL       :         : 5         : Y              
+RESERVED_INPUT               : T3        :        :                   :         : 5         :                
+RESERVED_INPUT               : T4        :        :                   :         : 5         :                
+RESERVED_INPUT               : T5        :        :                   :         : 5         :                
+RESERVED_INPUT               : T6        :        :                   :         : 5         :                
 RESERVED_INPUT               : T7        :        :                   :         : 5         :                
 RESERVED_INPUT               : T8        :        :                   :         : 5         :                
 RESERVED_INPUT               : T9        :        :                   :         : 5         :                
@@ -1431,17 +1431,17 @@ RESERVED_INPUT               : T33       :        :                   :         
 RESERVED_INPUT               : T34       :        :                   :         : 2         :                
 RESERVED_INPUT               : T35       :        :                   :         : 2         :                
 RESERVED_INPUT               : T36       :        :                   :         : 2         :                
-dat_out44[15]                : T37       : output : 3.3-V LVTTL       :         : 2         : N              
-dat_out44[0]                 : T38       : output : 3.3-V LVTTL       :         : 2         : N              
+RESERVED_INPUT               : T37       :        :                   :         : 2         :                
+RESERVED_INPUT               : T38       :        :                   :         : 2         :                
 GND                          : T39       : gnd    :                   :         :           :                
 SDA_5338A                    : U1        : bidir  : 3.3-V LVTTL       :         : 5         : Y              
 SCL_5338A                    : U2        : output : 3.3-V LVTTL       :         : 5         : Y              
 LED[0]                       : U3        : output : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_C_DQML                 : U4        : output : 3.3-V LVTTL       :         : 5         : Y              
+RESERVED_INPUT               : U4        :        :                   :         : 5         :                
 GND                          : U5        : gnd    :                   :         :           :                
-SDRAM_C_A[8]                 : U6        : output : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_D_D[20]                : U7        : bidir  : 3.3-V LVTTL       :         : 5         : Y              
-en_out42                     : U8        : output : 3.3-V LVTTL       :         : 5         : N              
+RESERVED_INPUT               : U6        :        :                   :         : 5         :                
+RESERVED_INPUT               : U7        :        :                   :         : 5         :                
+RESERVED_INPUT               : U8        :        :                   :         : 5         :                
 RESERVED_INPUT               : U9        :        :                   :         : 5         :                
 RESERVED_INPUT               : U10       :        :                   :         : 5         :                
 RESERVED_INPUT               : U11       :        :                   :         : 5         :                
@@ -1471,21 +1471,21 @@ RESERVED_INPUT               : U34       :        :                   :         
 GND                          : U35       : gnd    :                   :         :           :                
 RESERVED_INPUT               : U36       :        :                   :         : 2         :                
 RESERVED_INPUT               : U37       :        :                   :         : 2         :                
-dat_out56[6]                 : U38       : output : 3.3-V LVTTL       :         : 2         : N              
-dat_out56[9]                 : U39       : output : 3.3-V LVTTL       :         : 2         : N              
+RESERVED_INPUT               : U38       :        :                   :         : 2         :                
+RESERVED_INPUT               : U39       :        :                   :         : 2         :                
 VCCIO5                       : V1        : power  :                   : 3.3V    : 5         :                
 INTR_5338A                   : V2        : output : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_C_A[13]                : V3        : output : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_C_CKE                  : V4        : output : 3.3-V LVTTL       :         : 5         : Y              
-dat_out59[2]                 : V5        : output : 3.3-V LVTTL       :         : 5         : N              
-en_out58                     : V6        : output : 3.3-V LVTTL       :         : 5         : N              
-SDRAM_D_D[21]                : V7        : bidir  : 3.3-V LVTTL       :         : 5         : Y              
-dat_out59[9]                 : V8        : output : 3.3-V LVTTL       :         : 5         : N              
-dat_out59[15]                : V9        : output : 3.3-V LVTTL       :         : 5         : N              
+RESERVED_INPUT               : V3        :        :                   :         : 5         :                
+RESERVED_INPUT               : V4        :        :                   :         : 5         :                
+RESERVED_INPUT               : V5        :        :                   :         : 5         :                
+RESERVED_INPUT               : V6        :        :                   :         : 5         :                
+RESERVED_INPUT               : V7        :        :                   :         : 5         :                
+RESERVED_INPUT               : V8        :        :                   :         : 5         :                
+RESERVED_INPUT               : V9        :        :                   :         : 5         :                
 GNDA_PLL4                    : V10       : gnd    :                   :         :           :                
 GNDA_PLL4                    : V11       : gnd    :                   :         :           :                
-dat_out59[0]                 : V12       : output : 3.3-V LVTTL       :         : 5         : N              
-dat_out59[7]                 : V13       : output : 3.3-V LVTTL       :         : 5         : N              
+RESERVED_INPUT               : V12       :        :                   :         : 5         :                
+RESERVED_INPUT               : V13       :        :                   :         : 5         :                
 VCCPD5                       : V14       : power  :                   : 3.3V    : 5         :                
 VCCINT                       : V15       : power  :                   : 1.2V    :           :                
 GND                          : V16       : gnd    :                   :         :           :                
@@ -1499,32 +1499,32 @@ VCCINT                       : V23       : power  :                   : 1.2V    
 GND                          : V24       : gnd    :                   :         :           :                
 VCCINT                       : V25       : power  :                   : 1.2V    :           :                
 VCCPD2                       : V26       : power  :                   : 3.3V    : 2         :                
-dat_out44[1]                 : V27       : output : 3.3-V LVTTL       :         : 2         : N              
+RESERVED_INPUT               : V27       :        :                   :         : 2         :                
 RESERVED_INPUT               : V28       :        :                   :         : 2         :                
 VCCD_PLL1                    : V29       : power  :                   : 1.2V    :           :                
 VCCA_PLL1                    : V30       : power  :                   : 1.2V    :           :                
-dat_out44[8]                 : V31       : output : 3.3-V LVTTL       :         : 2         : N              
-dat_out44[4]                 : V32       : output : 3.3-V LVTTL       :         : 2         : N              
-dat_out44[10]                : V33       : output : 3.3-V LVTTL       :         : 2         : N              
-dat_out44[9]                 : V34       : output : 3.3-V LVTTL       :         : 2         : N              
-dat_out44[2]                 : V35       : output : 3.3-V LVTTL       :         : 2         : N              
-dat_out44[6]                 : V36       : output : 3.3-V LVTTL       :         : 2         : N              
-dat_out44[5]                 : V37       : output : 3.3-V LVTTL       :         : 2         : N              
-en_out43                     : V38       : output : 3.3-V LVTTL       :         : 2         : N              
+RESERVED_INPUT               : V31       :        :                   :         : 2         :                
+RESERVED_INPUT               : V32       :        :                   :         : 2         :                
+RESERVED_INPUT               : V33       :        :                   :         : 2         :                
+RESERVED_INPUT               : V34       :        :                   :         : 2         :                
+RESERVED_INPUT               : V35       :        :                   :         : 2         :                
+RESERVED_INPUT               : V36       :        :                   :         : 2         :                
+RESERVED_INPUT               : V37       :        :                   :         : 2         :                
+RESERVED_INPUT               : V38       :        :                   :         : 2         :                
 VCCIO2                       : V39       : power  :                   : 3.3V    : 2         :                
 SMA_CLKIN5                   : W1        : input  : 3.3-V LVTTL       :         : 5         : Y              
-dat_out56[13]                : W2        : output : 3.3-V LVTTL       :         : 5         : N              
+RESERVED_INPUT               : W2        :        :                   :         : 5         :                
 GND+                         : W3        :        :                   :         : 5         :                
 GND+                         : W4        :        :                   :         : 5         :                
 VCCIO5                       : W5        : power  :                   : 3.3V    : 5         :                
 VREFB5                       : W6        : power  :                   :         : 5         :                
-SDRAM_C_A[5]                 : W7        : output : 3.3-V LVTTL       :         : 5         : Y              
-SDRAM_D_D[22]                : W8        : bidir  : 3.3-V LVTTL       :         : 5         : Y              
+RESERVED_INPUT               : W7        :        :                   :         : 5         :                
+RESERVED_INPUT               : W8        :        :                   :         : 5         :                
 VCCA_PLL4                    : W9        : power  :                   : 1.2V    :           :                
 VCCD_PLL4                    : W10       : power  :                   : 1.2V    :           :                
 VCCA_PLL3                    : W11       : power  :                   : 1.2V    :           :                
-dat_out59[12]                : W12       : output : 3.3-V LVTTL       :         : 5         : N              
-dat_out59[14]                : W13       : output : 3.3-V LVTTL       :         : 5         : N              
+RESERVED_INPUT               : W12       :        :                   :         : 5         :                
+RESERVED_INPUT               : W13       :        :                   :         : 5         :                
 VCCPD5                       : W14       : power  :                   : 3.3V    : 5         :                
 GND                          : W15       : gnd    :                   :         :           :                
 VCCINT                       : W16       : power  :                   : 1.2V    :           :                
@@ -1535,33 +1535,33 @@ GND                          : W23       : gnd    :                   :         
 VCCINT                       : W24       : power  :                   : 1.2V    :           :                
 GND                          : W25       : gnd    :                   :         :           :                
 VCCPD2                       : W26       : power  :                   : 3.3V    : 2         :                
-en_out55                     : W27       : output : 3.3-V LVTTL       :         : 2         : N              
-dat_out44[3]                 : W28       : output : 3.3-V LVTTL       :         : 2         : N              
+RESERVED_INPUT               : W27       :        :                   :         : 2         :                
+RESERVED_INPUT               : W28       :        :                   :         : 2         :                
 VCCA_PLL2                    : W29       : power  :                   : 1.2V    :           :                
 GNDA_PLL1                    : W30       : gnd    :                   :         :           :                
 GNDA_PLL1                    : W31       : gnd    :                   :         :           :                
-dat_out44[12]                : W32       : output : 3.3-V LVTTL       :         : 2         : N              
-dat_out44[11]                : W33       : output : 3.3-V LVTTL       :         : 2         : N              
+RESERVED_INPUT               : W32       :        :                   :         : 2         :                
+RESERVED_INPUT               : W33       :        :                   :         : 2         :                
 VREFB2                       : W34       : power  :                   :         : 2         :                
 VCCIO2                       : W35       : power  :                   : 3.3V    : 2         :                
 GND+                         : W36       :        :                   :         : 2         :                
 SMA_CLKIN2                   : W37       : input  : 3.3-V LVTTL       :         : 2         : Y              
-dat_out44[14]                : W38       : output : 3.3-V LVTTL       :         : 2         : N              
+RESERVED_INPUT               : W38       :        :                   :         : 2         :                
 SMA_CLKIN1                   : W39       : input  : 3.3-V LVTTL       :         : 2         : Y              
 SMA_CLKIN6                   : Y1        : input  : 3.3-V LVTTL       :         : 6         : Y              
-dat_out59[6]                 : Y2        : output : 3.3-V LVTTL       :         : 6         : N              
+RESERVED_INPUT               : Y2        :        :                   :         : 6         :                
 SMA_CLKIN7                   : Y3        : input  : 3.3-V LVTTL       :         : 6         : Y              
 GND+                         : Y4        :        :                   :         : 6         :                
 SDA_5338B                    : Y5        : bidir  : 3.3-V LVTTL       :         : 6         : Y              
-SDRAM_C_A[0]                 : Y6        : output : 3.3-V LVTTL       :         : 6         : Y              
-SDRAM_C_A[2]                 : Y7        : output : 3.3-V LVTTL       :         : 6         : Y              
-dat_out59[10]                : Y8        : output : 3.3-V LVTTL       :         : 6         : N              
+RESERVED_INPUT               : Y6        :        :                   :         : 6         :                
+RESERVED_INPUT               : Y7        :        :                   :         : 6         :                
+RESERVED_INPUT               : Y8        :        :                   :         : 6         :                
 GND                          : Y9        : gnd    :                   :         :           :                
 VCCD_PLL3                    : Y10       : power  :                   : 1.2V    :           :                
 GNDA_PLL3                    : Y11       : gnd    :                   :         :           :                
 GNDA_PLL3                    : Y12       : gnd    :                   :         :           :                
-dat_out59[1]                 : Y13       : output : 3.3-V LVTTL       :         : 6         : N              
-dat_out59[5]                 : Y14       : output : 3.3-V LVTTL       :         : 6         : N              
+RESERVED_INPUT               : Y13       :        :                   :         : 6         :                
+RESERVED_INPUT               : Y14       :        :                   :         : 6         :                
 VCCINT                       : Y15       : power  :                   : 1.2V    :           :                
 GND                          : Y16       : gnd    :                   :         :           :                
 VCCINT                       : Y17       : power  :                   : 1.2V    :           :                
@@ -1570,17 +1570,17 @@ GND                          : Y22       : gnd    :                   :         
 VCCINT                       : Y23       : power  :                   : 1.2V    :           :                
 GND                          : Y24       : gnd    :                   :         :           :                
 VCCINT                       : Y25       : power  :                   : 1.2V    :           :                
-dat_out56[4]                 : Y26       : output : 3.3-V LVTTL       :         : 2         : N              
-dat_out56[0]                 : Y27       : output : 3.3-V LVTTL       :         : 2         : N              
+RESERVED_INPUT               : Y26       :        :                   :         : 2         :                
+RESERVED_INPUT               : Y27       :        :                   :         : 2         :                
 VCCD_PLL2                    : Y28       : power  :                   : 1.2V    :           :                
 GNDA_PLL2                    : Y29       : gnd    :                   :         :           :                
 GNDA_PLL2                    : Y30       : gnd    :                   :         :           :                
 GND                          : Y31       : gnd    :                   :         :           :                
-dat_out56[8]                 : Y32       : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out56[7]                 : Y33       : output : 3.3-V LVTTL       :         : 1         : N              
-dat_out[3]                   : Y34       : output : 3.3-V LVTTL       :         : 1         : N              
+RESERVED_INPUT               : Y32       :        :                   :         : 1         :                
+RESERVED_INPUT               : Y33       :        :                   :         : 1         :                
+RESERVED_INPUT               : Y34       :        :                   :         : 1         :                
 RESERVED_INPUT               : Y35       :        :                   :         : 1         :                
 GND+                         : Y36       :        :                   :         : 1         :                
 SMA_CLKIN4                   : Y37       : input  : 3.3-V LVTTL       :         : 1         : Y              
-dat_out44[7]                 : Y38       : output : 3.3-V LVTTL       :         : 1         : N              
+RESERVED_INPUT               : Y38       :        :                   :         : 1         :                
 SMA_CLKIN3                   : Y39       : input  : 3.3-V LVTTL       :         : 1         : Y              

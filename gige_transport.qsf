@@ -2124,3 +2124,6 @@ set_global_assignment -name VERILOG_FILE ChannelContant.v
 set_global_assignment -name VERILOG_FILE RdSetFifoCon.v
 set_global_assignment -name BDF_FILE SourceChannelBdf.bdf
 set_global_assignment -name VERILOG_FILE ChannelControlReg.v
+set_global_assignment -name VERILOG_FILE CutDatCon.v
+set_global_assignment -name QIP_FILE fifo_1616.qip
+set_global_assignment -name VERILOG_FILE FrameOutCon.v

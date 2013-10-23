@@ -9,7 +9,7 @@ module CpuWriteCon(
 	output reg  [31:0]packet_size,//------------UDP数据一包的长度，NIOS地址为2
 	output reg  start_send,//-------------------UDP数据发送信号，NIOS地址为3
 	
-	output reg [7 : 0] channel, 
+	output reg [7 : 0] sdram_channel, 
 	
 	output reg sdram_wr,
 	output reg sdram_rd,
@@ -20,7 +20,15 @@ module CpuWriteCon(
 	output reg  sdram_pre_clr,
 	output reg  sdram_post_clr,
 	
-	
+	output reg [7 : 0] source_channel,
+	output reg [15 : 0] source_framelen,
+	output reg [15 : 0] source_blanklen,
+	output reg source_start_send,
+	output reg source_stop_send,
+	output reg [31 : 0] source_totalnum,
+	output reg [31 : 0] source_cutnum,
+	output reg source_headen,
+	output reg source_clrfifo,
 	
 	output reg error
 	
@@ -93,13 +101,77 @@ if(pRST)
 	sdram_post_clr<=1'b0;
 else
 	if((cpu_wr_n==0) && (cpu_addr==11))
-		sdram_post_clr<=cpu_wdata[0];	
-//***SDRAM**************************************************************************************************************************************************************//	
+		sdram_post_clr<=cpu_wdata[0];
 always @(posedge clk or posedge pRST)
 if(pRST)
-	channel<=8'd0;
+	sdram_channel<=8'd0;
 else
-	if((cpu_wr_n==0) && (cpu_addr==13))
-		channel<=cpu_wdata[7:0];		
+	if((cpu_wr_n==0) && (cpu_addr==12))
+		sdram_channel<=cpu_wdata[7:0];		
+//***SDRAM**************************************************************************************************************************************************************//	
+//***SOURCE**************************************************************************************************************************************************************//	
+always @(posedge clk or posedge pRST)
+if(pRST)
+	source_channel<=8'd0;
+else
+	if((cpu_wr_n==0) && (cpu_addr==20))
+		source_channel<=cpu_wdata[7 : 0];	
+
+always @(posedge clk or posedge pRST)
+if(pRST)
+	source_framelen<=16'd0;
+else
+	if((cpu_wr_n==0) && (cpu_addr==21))
+		source_framelen<=cpu_wdata[15 : 0];	
+always @(posedge clk or posedge pRST)
+if(pRST)
+	source_blanklen<=8'd0;
+else
+	if((cpu_wr_n==0) && (cpu_addr==22))
+		source_blanklen<=cpu_wdata[15 : 0];	
+		
+always @(posedge clk or posedge pRST)
+if(pRST)
+	source_start_send<=1'd0;
+else
+	if((cpu_wr_n==0) && (cpu_addr==23))
+		source_start_send<=cpu_wdata[0];	
+always @(posedge clk or posedge pRST)
+if(pRST)
+	source_stop_send<=1'd0;
+else
+	if((cpu_wr_n==0) && (cpu_addr==24))
+		source_stop_send<=cpu_wdata[0];	
+		
+always @(posedge clk or posedge pRST)
+if(pRST)
+	source_totalnum<=32'd0;
+else
+	if((cpu_wr_n==0) && (cpu_addr==25))
+		source_totalnum<=cpu_wdata[31 : 0];	
+always @(posedge clk or posedge pRST)
+if(pRST)
+	source_cutnum<=32'd0;
+else
+	if((cpu_wr_n==0) && (cpu_addr==26))
+		source_cutnum<=cpu_wdata[31 : 0];	
+		
+always @(posedge clk or posedge pRST)
+if(pRST)
+	source_headen<=1'd0;
+else
+	if((cpu_wr_n==0) && (cpu_addr==27))
+		source_headen<=cpu_wdata[0];	
+always @(posedge clk or posedge pRST)
+if(pRST)
+	source_clrfifo<=1'd0;
+else
+	if((cpu_wr_n==0) && (cpu_addr==28))
+		source_clrfifo<=cpu_wdata[0];	
+		
+
+
+//***SOURCE**************************************************************************************************************************************************************//	
+	
 		
 endmodule

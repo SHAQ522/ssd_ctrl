@@ -11,16 +11,17 @@ module ChannelControlReg(
 						input [31 : 0] datnum_total,
 						input [31 : 0] datnum_cut,
 						input clr_fifo,
+						input head_en,
 						
 						
 						output reg [15 : 0] frame_lenout,
 						output reg [15 : 0] blank_lenout,
 						output reg start_out,
 						output reg stop_out,
-						output reg [15 : 0] rdaddr_begin_out,
-						output reg [15 : 0] rdaddr_end_out,
-						output reg pre_fifoclr_out,
-						output reg post_fifoclr_out
+						output reg [31 : 0] datnum_total_out,
+						output reg [31 : 0] datnum_cut_out,
+						output reg fifoclr_out,
+						output reg head_en_out
 						
 						);
 						
@@ -29,25 +30,27 @@ module ChannelControlReg(
 		begin
 			if(!reset_n)
 			begin
-				wr_out <= 1'b0;
-				rd_out <= 1'b0;
-				wraddr_begin_out <= 16'd0;
-				wraddr_end_out <= 16'd0;
-				rdaddr_begin_out <= 16'd0;
-				rdaddr_end_out <= 16'd0;
-				pre_fifoclr_out <= 1'b0;
-				post_fifoclr_out <= 1'b0;
+				frame_lenout <= 16'd0;
+				blank_lenout <= 16'd0;			
+				start_out <= 1'b0;
+				stop_out <= 1'b0;
+				
+				datnum_total_out <= 32'd0;
+				datnum_cut_out <= 32'd0;
+				fifoclr_out <= 1'b0;
+				head_en_out <= 1'b0;
 			end 
 			else if(!cs)
 			begin
-				wr_out <= wr_sdram;
-				rd_out <= rd_sdram;
-				wraddr_begin_out <= wraddr_begin;
-				wraddr_end_out <= wraddr_end;
-				rdaddr_begin_out <= rdaddr_begin;
-				rdaddr_end_out <= rdaddr_end;
-				pre_fifoclr_out <= pre_fifoclr;
-				post_fifoclr_out <= post_fifoclr;
+				frame_lenout <= frame_length;
+				blank_lenout <= blank_length;			
+				start_out <= start_send;
+				stop_out <= stop_send;
+				
+				datnum_total_out <= datnum_total;
+				datnum_cut_out <= datnum_cut;
+				fifoclr_out <= clr_fifo;
+				head_en_out <= head_en;
 			end 
 			else;
 		end 

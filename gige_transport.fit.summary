@@ -1,17 +1,17 @@
-Fitter Status : Successful - Mon May 27 17:32:53 2013
+Fitter Status : Successful - Wed Oct 23 18:07:27 2013
 Quartus II Version : 9.0 Build 132 02/25/2009 SJ Full Version
 Revision Name : gige_transport
 Top-level Entity Name : gige_transport_top
 Family : Stratix II
 Device : EP2S180F1508I4
 Timing Models : Final
-Logic utilization : 31 %
-    Combinational ALUTs : 25,230 / 143,520 ( 18 % )
-    Dedicated logic registers : 32,435 / 143,520 ( 23 % )
-Total registers : 32504
-Total pins : 816 / 1,171 ( 70 % )
+Logic utilization : 9 %
+    Combinational ALUTs : 5,719 / 143,520 ( 4 % )
+    Dedicated logic registers : 8,856 / 143,520 ( 6 % )
+Total registers : 8925
+Total pins : 435 / 1,171 ( 37 % )
 Total virtual pins : 0
-Total block memory bits : 4,115,360 / 9,383,040 ( 44 % )
+Total block memory bits : 727,648 / 9,383,040 ( 8 % )
 DSP block 9-bit elements : 8 / 768 ( 1 % )
-Total PLLs : 5 / 12 ( 42 % )
+Total PLLs : 3 / 12 ( 25 % )
 Total DLLs : 0 / 2 ( 0 % )
