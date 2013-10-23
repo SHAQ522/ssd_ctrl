@@ -1,0 +1,36 @@
+// udpram.v
+
+// This file was auto-generated as part of a SOPC Builder generate operation.
+// If you edit it your changes will probably be lost.
+
+module udpram (
+		input  wire        clk,                 // clock_reset.clk
+		input  wire        in_avs_chipselect_n, //      in_avs.chipselect_n
+		input  wire        in_avs_write_n,      //            .write_n
+		input  wire        in_avs_read_n,       //            .read_n
+		input  wire [15:0] in_avs_address,      //            .address
+		input  wire [7:0]  in_avs_writedata,    //            .writedata
+		output wire [7:0]  in_avs_readdata,     //            .readdata
+		output wire        wr_n,                // conduit_end.export
+		output wire        rd_n,                //            .export
+		output wire [15:0] addr,                //            .export
+		output wire [7:0]  wdata,               //            .export
+		input  wire [7:0]  rdata                //            .export
+	);
+
+	avalon_slave_exram_8bit udpram (
+		.clk                 (clk),                 // clock_reset.clk
+		.in_avs_chipselect_n (in_avs_chipselect_n), //      in_avs.chipselect_n
+		.in_avs_write_n      (in_avs_write_n),      //            .write_n
+		.in_avs_read_n       (in_avs_read_n),       //            .read_n
+		.in_avs_address      (in_avs_address),      //            .address
+		.in_avs_writedata    (in_avs_writedata),    //            .writedata
+		.in_avs_readdata     (in_avs_readdata),     //            .readdata
+		.wr_n                (wr_n),                // conduit_end.export
+		.rd_n                (rd_n),                //            .export
+		.addr                (addr),                //            .export
+		.wdata               (wdata),               //            .export
+		.rdata               (rdata)                //            .export
+	);
+
+endmodule

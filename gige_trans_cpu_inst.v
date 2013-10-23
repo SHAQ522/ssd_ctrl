@@ -1,0 +1,37 @@
+  //Example instantiation for system 'gige_trans_cpu'
+  gige_trans_cpu gige_trans_cpu_inst
+    (
+      .addr_from_the_export             (addr_from_the_export),
+      .addr_from_the_load_para          (addr_from_the_load_para),
+      .addr_from_the_udpram             (addr_from_the_udpram),
+      .bidir_port_to_and_from_the_SDA_A (bidir_port_to_and_from_the_SDA_A),
+      .bidir_port_to_and_from_the_SDA_B (bidir_port_to_and_from_the_SDA_B),
+      .clk_0                            (clk_0),
+      .in_port_to_the_board_in          (in_port_to_the_board_in),
+      .out_port_from_the_SCL_A          (out_port_from_the_SCL_A),
+      .out_port_from_the_SCL_B          (out_port_from_the_SCL_B),
+      .out_port_from_the_board_out      (out_port_from_the_board_out),
+      .rd_n_from_the_export             (rd_n_from_the_export),
+      .rd_n_from_the_load_para          (rd_n_from_the_load_para),
+      .rd_n_from_the_udpram             (rd_n_from_the_udpram),
+      .rdata_to_the_export              (rdata_to_the_export),
+      .rdata_to_the_load_para           (rdata_to_the_load_para),
+      .rdata_to_the_udpram              (rdata_to_the_udpram),
+      .reset_n                          (reset_n),
+      .wdata_from_the_export            (wdata_from_the_export),
+      .wdata_from_the_load_para         (wdata_from_the_load_para),
+      .wdata_from_the_udpram            (wdata_from_the_udpram),
+      .wr_n_from_the_export             (wr_n_from_the_export),
+      .wr_n_from_the_load_para          (wr_n_from_the_load_para),
+      .wr_n_from_the_udpram             (wr_n_from_the_udpram),
+      .zs_addr_from_the_sdram_0         (zs_addr_from_the_sdram_0),
+      .zs_ba_from_the_sdram_0           (zs_ba_from_the_sdram_0),
+      .zs_cas_n_from_the_sdram_0        (zs_cas_n_from_the_sdram_0),
+      .zs_cke_from_the_sdram_0          (zs_cke_from_the_sdram_0),
+      .zs_cs_n_from_the_sdram_0         (zs_cs_n_from_the_sdram_0),
+      .zs_dq_to_and_from_the_sdram_0    (zs_dq_to_and_from_the_sdram_0),
+      .zs_dqm_from_the_sdram_0          (zs_dqm_from_the_sdram_0),
+      .zs_ras_n_from_the_sdram_0        (zs_ras_n_from_the_sdram_0),
+      .zs_we_n_from_the_sdram_0         (zs_we_n_from_the_sdram_0)
+    );
+

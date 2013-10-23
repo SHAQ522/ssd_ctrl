@@ -1,0 +1,301 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 272 336)
+	(text "ingress" (rect 5 0 40 12)(font "Arial" ))
+	(text "inst" (rect 8 304 25 316)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "RFCLK" (rect 0 0 36 12)(font "Arial" ))
+		(text "RFCLK" (rect 21 27 57 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "RSX_in" (rect 0 0 35 12)(font "Arial" ))
+		(text "RSX_in" (rect 21 43 56 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "RSOP_in" (rect 0 0 44 12)(font "Arial" ))
+		(text "RSOP_in" (rect 21 59 65 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 1))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "REOP_in" (rect 0 0 44 12)(font "Arial" ))
+		(text "REOP_in" (rect 21 75 65 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 1))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "RERR" (rect 0 0 31 12)(font "Arial" ))
+		(text "RERR" (rect 21 91 52 103)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "RMOD[1..0]" (rect 0 0 59 12)(font "Arial" ))
+		(text "RMOD[1..0]" (rect 21 107 80 119)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112)(line_width 3))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "RDAT[31..0]" (rect 0 0 61 12)(font "Arial" ))
+		(text "RDAT[31..0]" (rect 21 123 82 135)(font "Arial" ))
+		(line (pt 0 128)(pt 16 128)(line_width 3))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "RPRTY" (rect 0 0 37 12)(font "Arial" ))
+		(text "RPRTY" (rect 21 139 58 151)(font "Arial" ))
+		(line (pt 0 144)(pt 16 144)(line_width 1))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "RVAL_in" (rect 0 0 42 12)(font "Arial" ))
+		(text "RVAL_in" (rect 21 155 63 167)(font "Arial" ))
+		(line (pt 0 160)(pt 16 160)(line_width 1))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "condition_SP" (rect 0 0 63 12)(font "Arial" ))
+		(text "condition_SP" (rect 21 171 84 183)(font "Arial" ))
+		(line (pt 0 176)(pt 16 176)(line_width 1))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "condition_EH" (rect 0 0 64 12)(font "Arial" ))
+		(text "condition_EH" (rect 21 187 85 199)(font "Arial" ))
+		(line (pt 0 192)(pt 16 192)(line_width 1))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "condition_PL" (rect 0 0 62 12)(font "Arial" ))
+		(text "condition_PL" (rect 21 203 83 215)(font "Arial" ))
+		(line (pt 0 208)(pt 16 208)(line_width 1))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "condition_ST" (rect 0 0 62 12)(font "Arial" ))
+		(text "condition_ST" (rect 21 219 83 231)(font "Arial" ))
+		(line (pt 0 224)(pt 16 224)(line_width 1))
+	)
+	(port
+		(pt 0 240)
+		(input)
+		(text "condition_length[1..0]" (rect 0 0 105 12)(font "Arial" ))
+		(text "condition_length[1..0]" (rect 21 235 126 247)(font "Arial" ))
+		(line (pt 0 240)(pt 16 240)(line_width 3))
+	)
+	(port
+		(pt 0 256)
+		(input)
+		(text "condition_length2[1..0]" (rect 0 0 110 12)(font "Arial" ))
+		(text "condition_length2[1..0]" (rect 21 251 131 263)(font "Arial" ))
+		(line (pt 0 256)(pt 16 256)(line_width 3))
+	)
+	(port
+		(pt 0 272)
+		(input)
+		(text "cmd_end" (rect 0 0 44 12)(font "Arial" ))
+		(text "cmd_end" (rect 21 267 65 279)(font "Arial" ))
+		(line (pt 0 272)(pt 16 272)(line_width 1))
+	)
+	(port
+		(pt 0 288)
+		(input)
+		(text "nRST_Pixel" (rect 0 0 56 12)(font "Arial" ))
+		(text "nRST_Pixel" (rect 21 283 77 295)(font "Arial" ))
+		(line (pt 0 288)(pt 16 288)(line_width 1))
+	)
+	(port
+		(pt 256 32)
+		(output)
+		(text "RENB" (rect 0 0 30 12)(font "Arial" ))
+		(text "RENB" (rect 205 27 235 39)(font "Arial" ))
+		(line (pt 256 32)(pt 240 32)(line_width 1))
+	)
+	(port
+		(pt 256 48)
+		(output)
+		(text "dataout[31..0]" (rect 0 0 68 12)(font "Arial" ))
+		(text "dataout[31..0]" (rect 167 43 235 55)(font "Arial" ))
+		(line (pt 256 48)(pt 240 48)(line_width 3))
+	)
+	(port
+		(pt 256 64)
+		(output)
+		(text "wraddr[9..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "wraddr[9..0]" (rect 178 59 235 71)(font "Arial" ))
+		(line (pt 256 64)(pt 240 64)(line_width 3))
+	)
+	(port
+		(pt 256 80)
+		(output)
+		(text "wrreq" (rect 0 0 25 12)(font "Arial" ))
+		(text "wrreq" (rect 210 75 235 87)(font "Arial" ))
+		(line (pt 256 80)(pt 240 80)(line_width 1))
+	)
+	(port
+		(pt 256 96)
+		(output)
+		(text "frame_sync" (rect 0 0 60 12)(font "Arial" ))
+		(text "frame_sync" (rect 175 91 235 103)(font "Arial" ))
+		(line (pt 256 96)(pt 240 96)(line_width 1))
+	)
+	(port
+		(pt 256 112)
+		(output)
+		(text "Acq_on" (rect 0 0 36 12)(font "Arial" ))
+		(text "Acq_on" (rect 199 107 235 119)(font "Arial" ))
+		(line (pt 256 112)(pt 240 112)(line_width 1))
+	)
+	(port
+		(pt 256 128)
+		(output)
+		(text "Header_count[4..0]" (rect 0 0 94 12)(font "Arial" ))
+		(text "Header_count[4..0]" (rect 141 123 235 135)(font "Arial" ))
+		(line (pt 256 128)(pt 240 128)(line_width 3))
+	)
+	(port
+		(pt 256 144)
+		(output)
+		(text "packet_cnt[31..0]" (rect 0 0 86 12)(font "Arial" ))
+		(text "packet_cnt[31..0]" (rect 149 139 235 151)(font "Arial" ))
+		(line (pt 256 144)(pt 240 144)(line_width 3))
+	)
+	(port
+		(pt 256 160)
+		(output)
+		(text "photo_cnt[9..0]" (rect 0 0 74 12)(font "Arial" ))
+		(text "photo_cnt[9..0]" (rect 161 155 235 167)(font "Arial" ))
+		(line (pt 256 160)(pt 240 160)(line_width 3))
+	)
+	(port
+		(pt 256 176)
+		(output)
+		(text "MODE_SET" (rect 0 0 57 12)(font "Arial" ))
+		(text "MODE_SET" (rect 178 171 235 183)(font "Arial" ))
+		(line (pt 256 176)(pt 240 176)(line_width 1))
+	)
+	(port
+		(pt 256 192)
+		(output)
+		(text "feedback" (rect 0 0 46 12)(font "Arial" ))
+		(text "feedback" (rect 189 187 235 199)(font "Arial" ))
+		(line (pt 256 192)(pt 240 192)(line_width 1))
+	)
+	(parameter
+		"Height"
+		"010000000000"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"Width"
+		"010101110000"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"MAC_addressHOST"
+		"000000000000101101101010110111100011011011110010"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"MAC_addressDEVICE"
+		"000000000000111100110001000000001111110111101110"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"MAC_addressPC"
+		"000000000001100111100000011101011011111111111101"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"IP_HOST"
+		"10101001111111100000000100000001"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"IP_DEVICE"
+		"10101001111111100000000100001010"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"Idle"
+		"00000"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"Start_transfer"
+		"00001"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"Start_packet"
+		"00010"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"Extract_Header"
+		"00011"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"Start_frame"
+		"00100"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"Payload"
+		"00101"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"Storage"
+		"00110"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"ExtractH_2"
+		"00111"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(drawing
+		(rectangle (rect 16 16 240 304)(line_width 1))
+	)
+	(annotation_block (parameter)(rect 272 -64 372 16))
+)

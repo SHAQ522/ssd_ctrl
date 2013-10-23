@@ -1,0 +1,10 @@
+set_global_assignment -name TCL_FILE [file join $::quartus(qip_path) avalon_slave_export_v2_hw.tcl]
+set_global_assignment -name TCL_FILE [file join $::quartus(qip_path) avalon_slave_exram_8bit_hw.tcl]
+set_global_assignment -name SDC_FILE [file join $::quartus(qip_path) cpu_0.sdc]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) avalon_slave_export_v2.v]
+ set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) load_para.v]
+ set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) avalon_slave_exram_8bit.v]
+ set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) export.v]
+ set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) udpram.v]
+ set_global_assignment -name SOPC_BUILDER_SIGNATURE_ID 1C6F65C05B800000013783273533 
+ 

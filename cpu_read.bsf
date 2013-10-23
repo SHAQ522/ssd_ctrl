@@ -1,0 +1,253 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 344 528)
+	(text "cpu_read" (rect 5 0 49 12)(font "Arial" ))
+	(text "inst" (rect 8 496 25 508)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clk" (rect 0 0 14 12)(font "Arial" ))
+		(text "clk" (rect 21 27 35 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "cpu_rd_n" (rect 0 0 44 12)(font "Arial" ))
+		(text "cpu_rd_n" (rect 21 43 65 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "cpu_addr[8..0]" (rect 0 0 70 12)(font "Arial" ))
+		(text "cpu_addr[8..0]" (rect 21 59 91 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "command_fifo_usedw[10..0]" (rect 0 0 140 12)(font "Arial" ))
+		(text "command_fifo_usedw[10..0]" (rect 21 75 161 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "command_fifo_data[15..0]" (rect 0 0 130 12)(font "Arial" ))
+		(text "command_fifo_data[15..0]" (rect 21 91 151 103)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96)(line_width 3))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "ATA1_busy" (rect 0 0 56 12)(font "Arial" ))
+		(text "ATA1_busy" (rect 21 107 77 119)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112)(line_width 1))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "ATA1_err" (rect 0 0 44 12)(font "Arial" ))
+		(text "ATA1_err" (rect 21 123 65 135)(font "Arial" ))
+		(line (pt 0 128)(pt 16 128)(line_width 1))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "gbit_packer_count[31..0]" (rect 0 0 121 12)(font "Arial" ))
+		(text "gbit_packer_count[31..0]" (rect 21 139 142 151)(font "Arial" ))
+		(line (pt 0 144)(pt 16 144)(line_width 3))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "sdram_wr_done" (rect 0 0 76 12)(font "Arial" ))
+		(text "sdram_wr_done" (rect 21 155 97 167)(font "Arial" ))
+		(line (pt 0 160)(pt 16 160)(line_width 1))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "signal_tele_ch[15..0]" (rect 0 0 101 12)(font "Arial" ))
+		(text "signal_tele_ch[15..0]" (rect 21 171 122 183)(font "Arial" ))
+		(line (pt 0 176)(pt 16 176)(line_width 3))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "freq_tele_ch0[31..0]" (rect 0 0 99 12)(font "Arial" ))
+		(text "freq_tele_ch0[31..0]" (rect 21 187 120 199)(font "Arial" ))
+		(line (pt 0 192)(pt 16 192)(line_width 3))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "freq_tele_ch1[31..0]" (rect 0 0 99 12)(font "Arial" ))
+		(text "freq_tele_ch1[31..0]" (rect 21 203 120 215)(font "Arial" ))
+		(line (pt 0 208)(pt 16 208)(line_width 3))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "freq_tele_ch2[31..0]" (rect 0 0 99 12)(font "Arial" ))
+		(text "freq_tele_ch2[31..0]" (rect 21 219 120 231)(font "Arial" ))
+		(line (pt 0 224)(pt 16 224)(line_width 3))
+	)
+	(port
+		(pt 0 240)
+		(input)
+		(text "freq_tele_ch3[31..0]" (rect 0 0 99 12)(font "Arial" ))
+		(text "freq_tele_ch3[31..0]" (rect 21 235 120 247)(font "Arial" ))
+		(line (pt 0 240)(pt 16 240)(line_width 3))
+	)
+	(port
+		(pt 0 256)
+		(input)
+		(text "freq_tele_ch4[31..0]" (rect 0 0 99 12)(font "Arial" ))
+		(text "freq_tele_ch4[31..0]" (rect 21 251 120 263)(font "Arial" ))
+		(line (pt 0 256)(pt 16 256)(line_width 3))
+	)
+	(port
+		(pt 0 272)
+		(input)
+		(text "freq_tele_ch5[31..0]" (rect 0 0 99 12)(font "Arial" ))
+		(text "freq_tele_ch5[31..0]" (rect 21 267 120 279)(font "Arial" ))
+		(line (pt 0 272)(pt 16 272)(line_width 3))
+	)
+	(port
+		(pt 0 288)
+		(input)
+		(text "freq_tele_ch6[31..0]" (rect 0 0 99 12)(font "Arial" ))
+		(text "freq_tele_ch6[31..0]" (rect 21 283 120 295)(font "Arial" ))
+		(line (pt 0 288)(pt 16 288)(line_width 3))
+	)
+	(port
+		(pt 0 304)
+		(input)
+		(text "freq_tele_ch7[31..0]" (rect 0 0 99 12)(font "Arial" ))
+		(text "freq_tele_ch7[31..0]" (rect 21 299 120 311)(font "Arial" ))
+		(line (pt 0 304)(pt 16 304)(line_width 3))
+	)
+	(port
+		(pt 0 320)
+		(input)
+		(text "freq_tele_ch8[31..0]" (rect 0 0 99 12)(font "Arial" ))
+		(text "freq_tele_ch8[31..0]" (rect 21 315 120 327)(font "Arial" ))
+		(line (pt 0 320)(pt 16 320)(line_width 3))
+	)
+	(port
+		(pt 0 336)
+		(input)
+		(text "freq_tele_ch9[31..0]" (rect 0 0 99 12)(font "Arial" ))
+		(text "freq_tele_ch9[31..0]" (rect 21 331 120 343)(font "Arial" ))
+		(line (pt 0 336)(pt 16 336)(line_width 3))
+	)
+	(port
+		(pt 0 352)
+		(input)
+		(text "freq_tele_ch10[31..0]" (rect 0 0 105 12)(font "Arial" ))
+		(text "freq_tele_ch10[31..0]" (rect 21 347 126 359)(font "Arial" ))
+		(line (pt 0 352)(pt 16 352)(line_width 3))
+	)
+	(port
+		(pt 0 368)
+		(input)
+		(text "freq_tele_ch11[31..0]" (rect 0 0 105 12)(font "Arial" ))
+		(text "freq_tele_ch11[31..0]" (rect 21 363 126 375)(font "Arial" ))
+		(line (pt 0 368)(pt 16 368)(line_width 3))
+	)
+	(port
+		(pt 0 384)
+		(input)
+		(text "ram_tele_flag[15..0]" (rect 0 0 99 12)(font "Arial" ))
+		(text "ram_tele_flag[15..0]" (rect 21 379 120 391)(font "Arial" ))
+		(line (pt 0 384)(pt 16 384)(line_width 3))
+	)
+	(port
+		(pt 0 400)
+		(input)
+		(text "uart_fifo_num[8..0]" (rect 0 0 95 12)(font "Arial" ))
+		(text "uart_fifo_num[8..0]" (rect 21 395 116 407)(font "Arial" ))
+		(line (pt 0 400)(pt 16 400)(line_width 3))
+	)
+	(port
+		(pt 0 416)
+		(input)
+		(text "update_db[31..0]" (rect 0 0 82 12)(font "Arial" ))
+		(text "update_db[31..0]" (rect 21 411 103 423)(font "Arial" ))
+		(line (pt 0 416)(pt 16 416)(line_width 3))
+	)
+	(port
+		(pt 0 432)
+		(input)
+		(text "update_num[11..0]" (rect 0 0 92 12)(font "Arial" ))
+		(text "update_num[11..0]" (rect 21 427 113 439)(font "Arial" ))
+		(line (pt 0 432)(pt 16 432)(line_width 3))
+	)
+	(port
+		(pt 0 448)
+		(input)
+		(text "updatecommand_fifo_usedw[10..0]" (rect 0 0 173 12)(font "Arial" ))
+		(text "updatecommand_fifo_usedw[10..0]" (rect 21 443 194 455)(font "Arial" ))
+		(line (pt 0 448)(pt 16 448)(line_width 3))
+	)
+	(port
+		(pt 0 464)
+		(input)
+		(text "updatecommand_fifo_data[15..0]" (rect 0 0 164 12)(font "Arial" ))
+		(text "updatecommand_fifo_data[15..0]" (rect 21 459 185 471)(font "Arial" ))
+		(line (pt 0 464)(pt 16 464)(line_width 3))
+	)
+	(port
+		(pt 328 32)
+		(output)
+		(text "command_fifo_ack" (rect 0 0 95 12)(font "Arial" ))
+		(text "command_fifo_ack" (rect 212 27 307 39)(font "Arial" ))
+		(line (pt 328 32)(pt 312 32)(line_width 1))
+	)
+	(port
+		(pt 328 48)
+		(output)
+		(text "cpu_rdata[31..0]" (rect 0 0 80 12)(font "Arial" ))
+		(text "cpu_rdata[31..0]" (rect 227 43 307 55)(font "Arial" ))
+		(line (pt 328 48)(pt 312 48)(line_width 3))
+	)
+	(port
+		(pt 328 64)
+		(output)
+		(text "update_fifo_ack" (rect 0 0 80 12)(font "Arial" ))
+		(text "update_fifo_ack" (rect 227 59 307 71)(font "Arial" ))
+		(line (pt 328 64)(pt 312 64)(line_width 1))
+	)
+	(port
+		(pt 328 80)
+		(output)
+		(text "updatecmd_fifo_ack" (rect 0 0 101 12)(font "Arial" ))
+		(text "updatecmd_fifo_ack" (rect 206 75 307 87)(font "Arial" ))
+		(line (pt 328 80)(pt 312 80)(line_width 1))
+	)
+	(drawing
+		(rectangle (rect 16 16 312 496)(line_width 1))
+	)
+)

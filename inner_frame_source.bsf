@@ -1,0 +1,183 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 272 400)
+	(text "inner_frame_source" (rect 5 0 102 12)(font "Arial" ))
+	(text "inst" (rect 8 368 25 380)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clk" (rect 0 0 14 12)(font "Arial" ))
+		(text "clk" (rect 21 27 35 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "pRST" (rect 0 0 27 12)(font "Arial" ))
+		(text "pRST" (rect 21 43 48 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "channel[7..0]" (rect 0 0 63 12)(font "Arial" ))
+		(text "channel[7..0]" (rect 21 59 84 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "channel_constant[7..0]" (rect 0 0 112 12)(font "Arial" ))
+		(text "channel_constant[7..0]" (rect 21 75 133 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "version[7..0]" (rect 0 0 62 12)(font "Arial" ))
+		(text "version[7..0]" (rect 21 91 83 103)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96)(line_width 3))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "type_[7..0]" (rect 0 0 54 12)(font "Arial" ))
+		(text "type_[7..0]" (rect 21 107 75 119)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112)(line_width 3))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "assi_packet[7..0]" (rect 0 0 84 12)(font "Arial" ))
+		(text "assi_packet[7..0]" (rect 21 123 105 135)(font "Arial" ))
+		(line (pt 0 128)(pt 16 128)(line_width 3))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "app_proc[15..0]" (rect 0 0 76 12)(font "Arial" ))
+		(text "app_proc[15..0]" (rect 21 139 97 151)(font "Arial" ))
+		(line (pt 0 144)(pt 16 144)(line_width 3))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "group[7..0]" (rect 0 0 53 12)(font "Arial" ))
+		(text "group[7..0]" (rect 21 155 74 167)(font "Arial" ))
+		(line (pt 0 160)(pt 16 160)(line_width 3))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "packet_count_incr[7..0]" (rect 0 0 115 12)(font "Arial" ))
+		(text "packet_count_incr[7..0]" (rect 21 171 136 183)(font "Arial" ))
+		(line (pt 0 176)(pt 16 176)(line_width 3))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "packet_length[15..0]" (rect 0 0 100 12)(font "Arial" ))
+		(text "packet_length[15..0]" (rect 21 187 121 199)(font "Arial" ))
+		(line (pt 0 192)(pt 16 192)(line_width 3))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "time_0[7..0]" (rect 0 0 59 12)(font "Arial" ))
+		(text "time_0[7..0]" (rect 21 203 80 215)(font "Arial" ))
+		(line (pt 0 208)(pt 16 208)(line_width 3))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "time_1[7..0]" (rect 0 0 59 12)(font "Arial" ))
+		(text "time_1[7..0]" (rect 21 219 80 231)(font "Arial" ))
+		(line (pt 0 224)(pt 16 224)(line_width 3))
+	)
+	(port
+		(pt 0 240)
+		(input)
+		(text "time_2[7..0]" (rect 0 0 59 12)(font "Arial" ))
+		(text "time_2[7..0]" (rect 21 235 80 247)(font "Arial" ))
+		(line (pt 0 240)(pt 16 240)(line_width 3))
+	)
+	(port
+		(pt 0 256)
+		(input)
+		(text "time_3[7..0]" (rect 0 0 59 12)(font "Arial" ))
+		(text "time_3[7..0]" (rect 21 251 80 263)(font "Arial" ))
+		(line (pt 0 256)(pt 16 256)(line_width 3))
+	)
+	(port
+		(pt 0 272)
+		(input)
+		(text "time_4[7..0]" (rect 0 0 59 12)(font "Arial" ))
+		(text "time_4[7..0]" (rect 21 267 80 279)(font "Arial" ))
+		(line (pt 0 272)(pt 16 272)(line_width 3))
+	)
+	(port
+		(pt 0 288)
+		(input)
+		(text "time_5[7..0]" (rect 0 0 59 12)(font "Arial" ))
+		(text "time_5[7..0]" (rect 21 283 80 295)(font "Arial" ))
+		(line (pt 0 288)(pt 16 288)(line_width 3))
+	)
+	(port
+		(pt 0 304)
+		(input)
+		(text "app_data_start_point[7..0]" (rect 0 0 128 12)(font "Arial" ))
+		(text "app_data_start_point[7..0]" (rect 21 299 149 311)(font "Arial" ))
+		(line (pt 0 304)(pt 16 304)(line_width 3))
+	)
+	(port
+		(pt 0 320)
+		(input)
+		(text "app_data_incr[7..0]" (rect 0 0 94 12)(font "Arial" ))
+		(text "app_data_incr[7..0]" (rect 21 315 115 327)(font "Arial" ))
+		(line (pt 0 320)(pt 16 320)(line_width 3))
+	)
+	(port
+		(pt 0 336)
+		(input)
+		(text "fifo_ready" (rect 0 0 51 12)(font "Arial" ))
+		(text "fifo_ready" (rect 21 331 72 343)(font "Arial" ))
+		(line (pt 0 336)(pt 16 336)(line_width 1))
+	)
+	(port
+		(pt 256 32)
+		(output)
+		(text "app_data[15..0]" (rect 0 0 76 12)(font "Arial" ))
+		(text "app_data[15..0]" (rect 159 27 235 39)(font "Arial" ))
+		(line (pt 256 32)(pt 240 32)(line_width 3))
+	)
+	(port
+		(pt 256 48)
+		(output)
+		(text "wren" (rect 0 0 22 12)(font "Arial" ))
+		(text "wren" (rect 213 43 235 55)(font "Arial" ))
+		(line (pt 256 48)(pt 240 48)(line_width 1))
+	)
+	(drawing
+		(rectangle (rect 16 16 240 368)(line_width 1))
+	)
+)

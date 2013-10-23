@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pin_planner>
+	<pin_info>
+		<pin name="LVDS1_CLK" direction="Output" source="Hierarchy Database" diff_pair_node="LVDS1_DATA[4]" >
+		</pin>
+		<pin name="LVDS1_DATA[17]" direction="Output" source="Hierarchy Database" diff_pair_node="LVDS1_DATA[16]" >
+		</pin>
+		<pin name="LVDS1_DATA[16]" direction="Output" source="Hierarchy Database" diff_pair_node="LVDS1_DATA[17]" >
+		</pin>
+		<pin name="LVDS1_DATA[15]" direction="Output" source="Hierarchy Database" diff_pair_node="LVDS1_DATA[14]" >
+		</pin>
+		<pin name="LVDS1_DATA[14]" direction="Output" source="Hierarchy Database" diff_pair_node="LVDS1_DATA[15]" >
+		</pin>
+		<pin name="LVDS1_DATA[13]" direction="Output" source="Hierarchy Database" diff_pair_node="LVDS1_DATA[5]" >
+		</pin>
+		<pin name="LVDS1_DATA[12]" direction="Output" source="Hierarchy Database" diff_pair_node="LVDS1_DATA[6]" >
+		</pin>
+		<pin name="LVDS1_DATA[11]" direction="Output" source="Hierarchy Database" diff_pair_node="LVDS1_DATA[10]" >
+		</pin>
+		<pin name="LVDS1_DATA[10]" direction="Output" source="Hierarchy Database" diff_pair_node="LVDS1_DATA[11]" >
+		</pin>
+		<pin name="LVDS1_DATA[9]" direction="Output" source="Hierarchy Database" diff_pair_node="LVDS2_DATA[0]" >
+		</pin>
+		<pin name="LVDS1_DATA[8]" direction="Output" source="Hierarchy Database" diff_pair_node="LVDS1_DATA[7]" >
+		</pin>
+		<pin name="LVDS1_DATA[7]" direction="Output" source="Hierarchy Database" diff_pair_node="LVDS1_DATA[8]" >
+		</pin>
+		<pin name="LVDS1_DATA[6]" direction="Output" source="Hierarchy Database" diff_pair_node="LVDS1_DATA[12]" >
+		</pin>
+		<pin name="LVDS1_DATA[5]" direction="Output" source="Hierarchy Database" diff_pair_node="LVDS1_DATA[13]" >
+		</pin>
+		<pin name="LVDS1_DATA[4]" direction="Output" source="Hierarchy Database" diff_pair_node="LVDS1_CLK" >
+		</pin>
+		<pin name="LVDS1_DATA[3]" direction="Output" source="Hierarchy Database" diff_pair_node="LVDS1_DATA[2]" >
+		</pin>
+		<pin name="LVDS1_DATA[2]" direction="Output" source="Hierarchy Database" diff_pair_node="LVDS1_DATA[3]" >
+		</pin>
+		<pin name="LVDS1_DATA[1]" direction="Output" source="Hierarchy Database" diff_pair_node="LVDS1_DATA[0]" >
+		</pin>
+		<pin name="LVDS1_DATA[0]" direction="Output" source="Hierarchy Database" diff_pair_node="LVDS1_DATA[1]" >
+		</pin>
+		<pin name="LVDS1_SYN" direction="Output" source="Hierarchy Database" diff_pair_node="LVDS2_DATA[15]" >
+		</pin>
+		<pin name="LVDS2_CLK" direction="Output" source="Hierarchy Database" diff_pair_node="LVDS2_DATA[4]" >
+		</pin>
+		<pin name="LVDS2_DATA[17]" direction="Output" source="Hierarchy Database" diff_pair_node="LVDS2_DATA[1]" >
+		</pin>
+		<pin name="LVDS2_DATA[15]" direction="Output" source="Hierarchy Database" diff_pair_node="LVDS1_SYN" >
+		</pin>
+		<pin name="LVDS2_DATA[14]" direction="Output" source="Hierarchy Database" diff_pair_node="LVDS2_DATA[3]" >
+		</pin>
+		<pin name="LVDS2_DATA[11]" direction="Output" source="Hierarchy Database" diff_pair_node="LVDS2_DATA[6]" >
+		</pin>
+		<pin name="LVDS2_DATA[10]" direction="Output" source="Hierarchy Database" diff_pair_node="LVDS2_DATA[7]" >
+		</pin>
+		<pin name="LVDS2_DATA[9]" direction="Output" source="Hierarchy Database" diff_pair_node="LVDS2_DATA[8]" >
+		</pin>
+		<pin name="LVDS2_DATA[8]" direction="Output" source="Hierarchy Database" diff_pair_node="LVDS2_DATA[9]" >
+		</pin>
+		<pin name="LVDS2_DATA[7]" direction="Output" source="Hierarchy Database" diff_pair_node="LVDS2_DATA[10]" >
+		</pin>
+		<pin name="LVDS2_DATA[6]" direction="Output" source="Hierarchy Database" diff_pair_node="LVDS2_DATA[11]" >
+		</pin>
+		<pin name="LVDS2_DATA[4]" direction="Output" source="Hierarchy Database" diff_pair_node="LVDS2_CLK" >
+		</pin>
+		<pin name="LVDS2_DATA[3]" direction="Output" source="Hierarchy Database" diff_pair_node="LVDS2_DATA[14]" >
+		</pin>
+		<pin name="LVDS2_DATA[1]" direction="Output" source="Hierarchy Database" diff_pair_node="LVDS2_DATA[17]" >
+		</pin>
+		<pin name="LVDS2_DATA[0]" direction="Output" source="Hierarchy Database" diff_pair_node="LVDS1_DATA[9]" >
+		</pin>
+	</pin_info>
+	<buses>
+	</buses>
+	<group_file_association>
+	</group_file_association>
+	<pin_planner_file_specifies>
+	</pin_planner_file_specifies>
+</pin_planner>

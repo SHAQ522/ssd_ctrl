@@ -1,0 +1,103 @@
+Altera SOPC Builder Version 9.00 Build 132
+Copyright (c) 1999-2009 Altera Corporation.  All rights reserved.
+
+
+# 2012.05.25 16:41:15 (*) mk_custom_sdk starting
+# 2012.05.25 16:41:15 (*) Reading project D:/xx12/ssd_ctrl/gige_trans_cpu.ptf.
+
+# 2012.05.25 16:41:15 (*) Finding all CPUs
+# 2012.05.25 16:41:15 (*) Finding all available components
+
+# 2012.05.25 16:41:15 (*) Reading D:/xx12/ssd_ctrl/.sopc_builder/install.ptf
+
+# 2012.05.25 16:41:15 (*) Found 67 components
+
+# 2012.05.25 16:41:16 (*) Finding all peripherals
+
+# 2012.05.25 16:41:16 (*) Finding software components
+
+# 2012.05.25 16:41:16 (*) (Legacy SDK Generation Skipped)
+# 2012.05.25 16:41:16 (*) (All TCL Script Generation Skipped)
+# 2012.05.25 16:41:16 (*) (No Libraries Built)
+# 2012.05.25 16:41:16 (*) (Contents Generation Skipped)
+# 2012.05.25 16:41:16 (*) mk_custom_sdk finishing
+
+# 2012.05.25 16:41:16 (*) Starting generation for system: gige_trans_cpu.
+
+.
+.
+.
+..
+.
+....
+.
+.
+
+# 2012.05.25 16:41:18 (*) Running Generator Program for jtag_uart_0
+
+# 2012.05.25 16:41:19 (*) Running Generator Program for epcs_flash_controller_0
+
+# 2012.05.25 16:41:20 (*) Running Generator Program for sysid
+
+# 2012.05.25 16:41:21 (*) Running Generator Program for board_in
+
+# 2012.05.25 16:41:21 (*) Running Generator Program for board_out
+
+# 2012.05.25 16:41:22 (*) Running Generator Program for cpu_0
+
+# 2012.05.25 16:41:23 (*)   Checking for plaintext license.
+# 2012.05.25 16:41:24 (*)   Plaintext license not found.
+# 2012.05.25 16:41:24 (*)   Checking for encrypted license (non-evaluation).
+# 2012.05.25 16:41:25 (*)   Encrypted license found.  SOF will not be time-limited.
+# 2012.05.25 16:41:25 (*)   Getting CPU configuration settings
+# 2012.05.25 16:41:25 (*)   Elaborating CPU configuration settings
+# 2012.05.25 16:41:25 (*)   Creating all objects for CPU
+# 2012.05.25 16:41:25 (*)     Testbench
+
+# 2012.05.25 16:41:25 (*)     Instruction decoding
+# 2012.05.25 16:41:25 (*)       Instruction fields
+# 2012.05.25 16:41:25 (*)       Instruction decodes
+# 2012.05.25 16:41:26 (*)       Signals for RTL simulation waveforms
+# 2012.05.25 16:41:26 (*)       Instruction controls
+# 2012.05.25 16:41:26 (*)     Pipeline frontend
+# 2012.05.25 16:41:26 (*)     Pipeline backend
+# 2012.05.25 16:41:29 (*)   Generating HDL from CPU objects
+# 2012.05.25 16:41:31 (*)   Creating encrypted HDL
+
+# 2012.05.25 16:41:33 (*) Running Generator Program for watch_dog
+
+# 2012.05.25 16:41:34 (*) Running Generator Program for SCL_A
+
+# 2012.05.25 16:41:35 (*) Running Generator Program for SCL_B
+
+# 2012.05.25 16:41:36 (*) Running Generator Program for SDA_A
+
+# 2012.05.25 16:41:37 (*) Running Generator Program for SDA_B
+
+# 2012.05.25 16:41:38 (*) Running Generator Program for sdram_0
+
+.
+
+# 2012.05.25 16:41:40 (*) Running Test Generator Program for sdram_0
+
+# 2012.05.25 16:41:41 (*) Making arbitration and system (top) modules.
+
+# 2012.05.25 16:41:47 (*) Generating Quartus symbol for top level: gige_trans_cpu
+
+# 2012.05.25 16:41:47 (*) Generating Symbol D:/xx12/ssd_ctrl/gige_trans_cpu.bsf
+
+# 2012.05.25 16:41:47 (*) Creating command-line system-generation script: D:/xx12/ssd_ctrl/gige_trans_cpu_generation_script
+
+# 2012.05.25 16:41:47 (*) Running setup for HDL simulator: modelsim
+
+
+# 2012.05.25 16:41:48 (*) Completed generation for system: gige_trans_cpu.
+# 2012.05.25 16:41:48 (*) THE FOLLOWING SYSTEM ITEMS HAVE BEEN GENERATED:
+  SOPC Builder database : D:/xx12/ssd_ctrl/gige_trans_cpu.ptf 
+  System HDL Model : D:/xx12/ssd_ctrl/gige_trans_cpu.v 
+  System Generation Script : D:/xx12/ssd_ctrl/gige_trans_cpu_generation_script 
+
+# 2012.05.25 16:41:48 (*) SUCCESS: SYSTEM GENERATION COMPLETED.
+
+
+Press 'Exit' to exit.

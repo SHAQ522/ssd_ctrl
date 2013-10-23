@@ -1,0 +1,260 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 272 368)
+	(text "para_set" (rect 5 0 47 12)(font "Arial" ))
+	(text "inst" (rect 8 336 25 348)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clk" (rect 0 0 14 12)(font "Arial" ))
+		(text "clk" (rect 21 27 35 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "channel[7..0]" (rect 0 0 63 12)(font "Arial" ))
+		(text "channel[7..0]" (rect 21 43 84 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "channel_const[7..0]" (rect 0 0 96 12)(font "Arial" ))
+		(text "channel_const[7..0]" (rect 21 59 117 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "reset_in" (rect 0 0 38 12)(font "Arial" ))
+		(text "reset_in" (rect 21 75 59 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 1))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "begin_send_in" (rect 0 0 69 12)(font "Arial" ))
+		(text "begin_send_in" (rect 21 91 90 103)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "begin_set_in" (rect 0 0 61 12)(font "Arial" ))
+		(text "begin_set_in" (rect 21 107 82 119)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112)(line_width 1))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "data_length_in[31..0]" (rect 0 0 102 12)(font "Arial" ))
+		(text "data_length_in[31..0]" (rect 21 123 123 135)(font "Arial" ))
+		(line (pt 0 128)(pt 16 128)(line_width 3))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "blank_length_in[31..0]" (rect 0 0 107 12)(font "Arial" ))
+		(text "blank_length_in[31..0]" (rect 21 139 128 151)(font "Arial" ))
+		(line (pt 0 144)(pt 16 144)(line_width 3))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "mode_in[7..0]" (rect 0 0 67 12)(font "Arial" ))
+		(text "mode_in[7..0]" (rect 21 155 88 167)(font "Arial" ))
+		(line (pt 0 160)(pt 16 160)(line_width 3))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "out_en_in" (rect 0 0 47 12)(font "Arial" ))
+		(text "out_en_in" (rect 21 171 68 183)(font "Arial" ))
+		(line (pt 0 176)(pt 16 176)(line_width 1))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "data_mode_in[7..0]" (rect 0 0 94 12)(font "Arial" ))
+		(text "data_mode_in[7..0]" (rect 21 187 115 199)(font "Arial" ))
+		(line (pt 0 192)(pt 16 192)(line_width 3))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "flag_mode_in[7..0]" (rect 0 0 92 12)(font "Arial" ))
+		(text "flag_mode_in[7..0]" (rect 21 203 113 215)(font "Arial" ))
+		(line (pt 0 208)(pt 16 208)(line_width 3))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "syn_en_in" (rect 0 0 50 12)(font "Arial" ))
+		(text "syn_en_in" (rect 21 219 71 231)(font "Arial" ))
+		(line (pt 0 224)(pt 16 224)(line_width 1))
+	)
+	(port
+		(pt 0 240)
+		(input)
+		(text "syn_key_in" (rect 0 0 57 12)(font "Arial" ))
+		(text "syn_key_in" (rect 21 235 78 247)(font "Arial" ))
+		(line (pt 0 240)(pt 16 240)(line_width 1))
+	)
+	(port
+		(pt 0 256)
+		(input)
+		(text "packet_head_in[31..0]" (rect 0 0 108 12)(font "Arial" ))
+		(text "packet_head_in[31..0]" (rect 21 251 129 263)(font "Arial" ))
+		(line (pt 0 256)(pt 16 256)(line_width 3))
+	)
+	(port
+		(pt 0 272)
+		(input)
+		(text "flag_set_in[15..0]" (rect 0 0 86 12)(font "Arial" ))
+		(text "flag_set_in[15..0]" (rect 21 267 107 279)(font "Arial" ))
+		(line (pt 0 272)(pt 16 272)(line_width 3))
+	)
+	(port
+		(pt 0 288)
+		(input)
+		(text "length_set_in[23..0]" (rect 0 0 96 12)(font "Arial" ))
+		(text "length_set_in[23..0]" (rect 21 283 117 295)(font "Arial" ))
+		(line (pt 0 288)(pt 16 288)(line_width 3))
+	)
+	(port
+		(pt 0 304)
+		(input)
+		(text "scramble_in" (rect 0 0 59 12)(font "Arial" ))
+		(text "scramble_in" (rect 21 299 80 311)(font "Arial" ))
+		(line (pt 0 304)(pt 16 304)(line_width 1))
+	)
+	(port
+		(pt 256 32)
+		(output)
+		(text "reset" (rect 0 0 24 12)(font "Arial" ))
+		(text "reset" (rect 211 27 235 39)(font "Arial" ))
+		(line (pt 256 32)(pt 240 32)(line_width 1))
+	)
+	(port
+		(pt 256 48)
+		(output)
+		(text "begin_send" (rect 0 0 55 12)(font "Arial" ))
+		(text "begin_send" (rect 180 43 235 55)(font "Arial" ))
+		(line (pt 256 48)(pt 240 48)(line_width 1))
+	)
+	(port
+		(pt 256 64)
+		(output)
+		(text "begin_set" (rect 0 0 47 12)(font "Arial" ))
+		(text "begin_set" (rect 188 59 235 71)(font "Arial" ))
+		(line (pt 256 64)(pt 240 64)(line_width 1))
+	)
+	(port
+		(pt 256 80)
+		(output)
+		(text "data_length[31..0]" (rect 0 0 88 12)(font "Arial" ))
+		(text "data_length[31..0]" (rect 147 75 235 87)(font "Arial" ))
+		(line (pt 256 80)(pt 240 80)(line_width 3))
+	)
+	(port
+		(pt 256 96)
+		(output)
+		(text "blank_length[31..0]" (rect 0 0 93 12)(font "Arial" ))
+		(text "blank_length[31..0]" (rect 142 91 235 103)(font "Arial" ))
+		(line (pt 256 96)(pt 240 96)(line_width 3))
+	)
+	(port
+		(pt 256 112)
+		(output)
+		(text "out_en" (rect 0 0 33 12)(font "Arial" ))
+		(text "out_en" (rect 202 107 235 119)(font "Arial" ))
+		(line (pt 256 112)(pt 240 112)(line_width 1))
+	)
+	(port
+		(pt 256 128)
+		(output)
+		(text "mode[7..0]" (rect 0 0 53 12)(font "Arial" ))
+		(text "mode[7..0]" (rect 182 123 235 135)(font "Arial" ))
+		(line (pt 256 128)(pt 240 128)(line_width 3))
+	)
+	(port
+		(pt 256 144)
+		(output)
+		(text "data_mode[7..0]" (rect 0 0 80 12)(font "Arial" ))
+		(text "data_mode[7..0]" (rect 155 139 235 151)(font "Arial" ))
+		(line (pt 256 144)(pt 240 144)(line_width 3))
+	)
+	(port
+		(pt 256 160)
+		(output)
+		(text "flag_mode[7..0]" (rect 0 0 77 12)(font "Arial" ))
+		(text "flag_mode[7..0]" (rect 158 155 235 167)(font "Arial" ))
+		(line (pt 256 160)(pt 240 160)(line_width 3))
+	)
+	(port
+		(pt 256 176)
+		(output)
+		(text "syn_en" (rect 0 0 36 12)(font "Arial" ))
+		(text "syn_en" (rect 199 171 235 183)(font "Arial" ))
+		(line (pt 256 176)(pt 240 176)(line_width 1))
+	)
+	(port
+		(pt 256 192)
+		(output)
+		(text "syn_key" (rect 0 0 43 12)(font "Arial" ))
+		(text "syn_key" (rect 192 187 235 199)(font "Arial" ))
+		(line (pt 256 192)(pt 240 192)(line_width 1))
+	)
+	(port
+		(pt 256 208)
+		(output)
+		(text "packet_head[31..0]" (rect 0 0 94 12)(font "Arial" ))
+		(text "packet_head[31..0]" (rect 141 203 235 215)(font "Arial" ))
+		(line (pt 256 208)(pt 240 208)(line_width 3))
+	)
+	(port
+		(pt 256 224)
+		(output)
+		(text "flag_set[15..0]" (rect 0 0 71 12)(font "Arial" ))
+		(text "flag_set[15..0]" (rect 164 219 235 231)(font "Arial" ))
+		(line (pt 256 224)(pt 240 224)(line_width 3))
+	)
+	(port
+		(pt 256 240)
+		(output)
+		(text "length_set[23..0]" (rect 0 0 82 12)(font "Arial" ))
+		(text "length_set[23..0]" (rect 153 235 235 247)(font "Arial" ))
+		(line (pt 256 240)(pt 240 240)(line_width 3))
+	)
+	(port
+		(pt 256 256)
+		(output)
+		(text "scramble" (rect 0 0 44 12)(font "Arial" ))
+		(text "scramble" (rect 191 251 235 263)(font "Arial" ))
+		(line (pt 256 256)(pt 240 256)(line_width 1))
+	)
+	(drawing
+		(rectangle (rect 16 16 240 336)(line_width 1))
+	)
+)
